@@ -1,3 +1,5 @@
+import { Kumbh_Sans, Poppins } from 'next/font/google';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -11,6 +13,11 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        kumbhSans: ['Kumbh Sans', 'sans-serif'], // Define Raleway
+        poppins: ['Poppins', 'serif'], // Define Marcellus,
+        garamond: ['Garamond', 'serif'], // Define Garamond
+      }
     },
   },
   plugins: [],
