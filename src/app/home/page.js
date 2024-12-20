@@ -125,7 +125,7 @@ export function LandingPage() {
         </div>
       </div>
       <div className="flex flex-col mt-28 w-full max-md:mt-10 max-md:max-w-full">
-        <Accordion items={programsList}/>
+        {/* <Accordion items={programsList}/> */}
       </div>
     </div>
     <div>
@@ -138,7 +138,7 @@ export function LandingPage() {
               </div>
           </div>
           <div className="align-middle justify-center mt-[32px] w-[612px] pl-20 pb-10">
-          <BasicCarousel />
+          {/* <BasicCarousel /> */}
           </div>
           
           
