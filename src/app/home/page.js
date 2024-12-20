@@ -20,7 +20,7 @@ const navItems = [
 
 export function LandingPage() {
   return (
-    <div className="flex overflow-hidden flex-col  pt-5 bg-stone-950 max-md:pt-24">
+    <div className="flex overflow-hidden items-center flex-col  pt-5 bg-stone-950 max-md:pt-24">
       
       <NavBar />
       <div className="flex flex-col items-center">
