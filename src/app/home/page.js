@@ -20,10 +20,10 @@ const navItems = [
 
 export function LandingPage() {
   return (
-    <div className="flex overflow-hidden flex-col items-center pt-5 bg-stone-950 max-md:pt-24">
+    <div className="flex overflow-hidden flex-col  pt-5 bg-stone-950 max-md:pt-24">
       
       <NavBar />
-    
+      <div className="flex flex-col items-center">
       <div className="mt-28 text-6xl font-bold text-center font-garamond text-white leading-[90px] w-[929px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[62px]">
         THE MORTIFIED CHRISTIAN GROWTH AND DISCIPLESHIP PLATFORM
       </div>
@@ -41,8 +41,8 @@ export function LandingPage() {
       </button>
       
       <div className="flex overflow-hidden flex-col justify-center items-center self-stretch px-16 py-32 mt-20 w-full bg-stone-950 max-md:px-5 max-md:py-24 max-md:mt-10 max-md:max-w-full">
-        <div className="flex flex-wrap gap-10 items-center -mb-6 max-md:mb-2.5 max-md:max-w-full">
-          <div className="flex flex-col self-stretch my-auto min-w-[240px] w-[426px] max-md:max-w-full">
+        <div className="flex flex-wrap gap-10 w-full items-center justify-between -mb-6 max-md:mb-2.5 max-md:max-w-full">
+          <div className="flex flex-col self-stretch  my-auto min-w-[240px] w-[426px] max-md:max-w-full">
             <div className="flex flex-col w-full font-semibold max-md:max-w-full">
               <div className="font-kumbhSans gap-2.5 self-start px-4 py-2.5 text-[15px] font-normal  text-white rounded-3xl bg-zinc-800">
                 ABOUT US
@@ -148,10 +148,13 @@ export function LandingPage() {
     <NewsletterSection />
 
     </div>
-    <div className="mt-[159px]">
-      <Footer />
-    </div>
+      </div>
     
+    
+    <div className="mt-[159px]">
+    <Footer />
+    </div>
+
     </div>
   );
 }
