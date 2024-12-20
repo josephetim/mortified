@@ -1,4 +1,3 @@
-"use server"
 import * as React from "react";
 import {ValueCards } from "../components/ValueCard";
 import { NavBar } from "../components/NavBar";
