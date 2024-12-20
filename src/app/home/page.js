@@ -1,3 +1,4 @@
+"use client"
 import * as React from "react";
 import {ValueCards } from "../components/ValueCard";
 import { NavBar } from "../components/NavBar";
@@ -22,9 +23,7 @@ export function LandingPage() {
     <div className="flex overflow-hidden flex-col items-center pt-5 bg-stone-950 max-md:pt-24">
       
       <NavBar />
-      
-   
-      
+    
       <div className="mt-28 text-6xl font-bold text-center font-garamond text-white leading-[90px] w-[929px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[62px]">
         THE MORTIFIED CHRISTIAN GROWTH AND DISCIPLESHIP PLATFORM
       </div>
