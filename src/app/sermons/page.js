@@ -29,6 +29,7 @@ export default function Page() {
                 src={icons.carousel_next}
                 style={{transform: 'rotate(90deg)'}}
                 className='aspect-square w-[48px] object-contain'
+                alt="go down"
             />
             </div>
         </div>
@@ -63,7 +64,7 @@ export default function Page() {
         </div>
         </div>
 
-        <div className='mt-5'>
+        <div className='mt-5 px-16'>
             <Accordion items={sermons}/>
         </div>
 
