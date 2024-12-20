@@ -21,7 +21,7 @@ export function LandingPage() {
   return (
     <div className="flex overflow-hidden flex-col items-center pt-5 bg-stone-950 max-md:pt-24">
       
-      <NavBar />
+      {/* <NavBar /> */}
     
       <div className="mt-28 text-6xl font-bold text-center font-garamond text-white leading-[90px] w-[929px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[62px]">
         THE MORTIFIED CHRISTIAN GROWTH AND DISCIPLESHIP PLATFORM
@@ -125,7 +125,7 @@ export function LandingPage() {
         </div>
       </div>
       <div className="flex flex-col mt-28 w-full max-md:mt-10 max-md:max-w-full">
-        {/* <Accordion items={programsList}/> */}
+        <Accordion items={programsList}/>
       </div>
     </div>
     <div>
@@ -138,7 +138,7 @@ export function LandingPage() {
               </div>
           </div>
           <div className="align-middle justify-center mt-[32px] w-[612px] pl-20 pb-10">
-          {/* <BasicCarousel /> */}
+          <BasicCarousel />
           </div>
           
           
