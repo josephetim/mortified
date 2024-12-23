@@ -43,7 +43,7 @@ export default function About () {
           </div>
           <div className="flex flex-col self-stretch my-auto text-xl leading-8 min-w-[240px] w-[603px] max-md:max-w-full">
            
-            <div className="font-kumbhSans mt-6 text-stone-300 max-md:max-w-full">
+            <div className="font-kumbhSans mt-6 text-[#BDBDBD] max-md:max-w-full">
               We undertake trainings for our members who are interested 
              
               having help and guidance with their spiritual walk, through our
