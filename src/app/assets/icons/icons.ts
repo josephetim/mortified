@@ -10,6 +10,7 @@ import youtube from './youtube.png';
 import instagram from './instagram.png';
 import copyright from './copyright.png';
 import download from './download.png';
+import arr_dwn from './accordionArrow.png'
 
 export const icons = {
     cubes,
@@ -23,6 +24,7 @@ export const icons = {
     youtube,
     instagram,
     copyright,
-    download
+    download,
+    arr_dwn
  
 }
