@@ -38,16 +38,14 @@ export default function About () {
             </div>
             <div className="flex flex-col items-start mt-7 w-full max-md:max-w-full">
               <div className="flex max-w-full rounded-lg border border-solid bg-neutral-900 border-neutral-800 min-h-[86px] w-[228px]" />
-              <div className="flex mt-6 max-w-full rounded-lg border border-solid bg-neutral-900 border-neutral-800 min-h-[86px] w-[368px]" />
+              <div className="flex mt-6 max-w-full rounded-lg border border-solid bg-neutral-900 border-neutral-800 min-h-[86px] w-[452px]" />
             </div>
           </div>
           <div className="flex flex-col self-stretch my-auto text-xl leading-8 min-w-[240px] w-[603px] max-md:max-w-full">
            
             <div className="font-kumbhSans mt-6 text-[#BDBDBD] max-md:max-w-full">
               We undertake trainings for our members who are interested 
-             
               having help and guidance with their spiritual walk, through our
-          
               various programs, targeted at achieving growth in the lives of
               our trainee members. Refer to our programs page to find an <br />
               outline of our programs
