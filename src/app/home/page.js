@@ -20,7 +20,7 @@ const navItems = [
 
 export function LandingPage() {
   return (
-    <div className="flex overflow-hidden items-center flex-col  pt-5 bg-stone-950 max-md:pt-24">
+    <div className="flex overflow-hidden items-center flex-col pl-[70px] pr-[90px]  pt-5 bg-stone-950 max-md:pt-24">
       
       <NavBar />
       <div className="flex flex-col items-center">
@@ -40,14 +40,14 @@ export function LandingPage() {
         Join our community
       </button>
       
-      <div className="flex overflow-hidden flex-col justify-center items-center self-stretch px-16 py-32 mt-20 w-full bg-stone-950 max-md:px-5 max-md:py-24 max-md:mt-10 max-md:max-w-full">
+      <div className="flex overflow-hidden flex-col justify-center items-center self-stretch py-32 mt-20 w-full bg-stone-950 max-md:px-5 max-md:py-24 max-md:mt-10 max-md:max-w-full">
         <div className="flex flex-wrap gap-10 w-full items-center justify-between -mb-6 max-md:mb-2.5 max-md:max-w-full">
           <div className="flex flex-col self-stretch  my-auto min-w-[240px] w-[426px] max-md:max-w-full">
             <div className="flex flex-col w-full font-semibold max-md:max-w-full">
               <div className="font-kumbhSans gap-2.5 self-start px-4 py-2.5 text-[15px] font-normal  text-white rounded-3xl bg-zinc-800">
                 ABOUT US
               </div>
-              <div className=" font-kumbhSans text-[36px] font-normal mt-6 text-4xl text-neutral-200 max-md:max-w-full">
+              <div className=" font-kumbhSans text-[36px] font-semibold mt-6 text-4xl text-neutral-200 max-md:max-w-full">
                 Who we are, what we do and what we stand for.
               </div>
             </div>
@@ -60,16 +60,16 @@ export function LandingPage() {
             <div className="font-kumbhSans text-white max-md:max-w-full">
               <span className="font-semibold">Mortified{" "}</span>
                 
-              <span className="text-stone-300">
+              <span className="text-[#BDBDBD]">
               is a non-denominational, Christian Discipleship and{" "}
                 normal Christian life. We are not bound by geographical factors{" "}
                 thereby ensuring that the gospel of the kingdom reaches out to{" "}
               </span>
-              <span className="text-stone-300">
+              <span className="text-[#BDBDBD]">
                 the believer in every part of the world.
               </span>
             </div>
-            <div className="font-kumbhSans mt-6 text-stone-300 max-md:max-w-full">
+            <div className="font-kumbhSans mt-6 text-[#BDBDBD] max-md:max-w-full">
               We undertake trainings for our members who are interested 
              
               having help and guidance with their spiritual walk, through our
@@ -82,13 +82,13 @@ export function LandingPage() {
         </div>
       </div>
       
-      <div className="flex overflow-hidden flex-col self-stretch px-12 py-20 w-full bg-stone-950 max-md:px-5 max-md:max-w-full">
+      <div className="flex overflow-hidden flex-col self-stretch  py-20 w-full bg-stone-950 max-md:px-5 max-md:max-w-full">
         <div className="flex flex-col justify-center self-center max-w-full font-semibold w-[728px]">
           <div className="flex flex-col justify-center w-full max-md:max-w-full">
             <div className="font-kumbhSans gap-2.5 self-center px-4 py-2.5 text-[15px] font-normal text-white rounded-3xl bg-zinc-800">
               OUR VALUES
             </div>
-            <div className="font-kumbhSans font-normal text-[36px] mt-6 text-4xl text-center text-neutral-200 max-md:max-w-full">
+            <div className="font-kumbhSans font-semibold text-[36px] mt-6 text-4xl text-center text-neutral-200 max-md:max-w-full">
               At the heart of our mission are the values that guide us in faith,
               love and service
             </div>
@@ -96,7 +96,7 @@ export function LandingPage() {
         </div>
         <ValueCards />
       </div>
-      <div className="flex overflow-hidden flex-col px-16 py-16 bg-stone-950 max-md:px-5">
+      <div className="flex overflow-hidden flex-col  py-16 bg-stone-950 max-md:px-5">
       <div className="max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col">
           <div className="flex flex-col w-[38%] max-md:ml-0 max-md:w-full">
@@ -104,14 +104,14 @@ export function LandingPage() {
               <div className="font-kumbhSans gap-2.5 self-start px-4 py-2.5 text-base text-white rounded-3xl bg-zinc-800">
                 OUR PROGRAMS
               </div>
-              <div className="font-kumbhSans font-normal mt-7 text-4xl text-neutral-200 max-md:max-w-full">
+              <div className="font-kumbhSans font-semibold mt-7 text-4xl text-neutral-200 max-md:max-w-full">
                 Pathways to <br />
                 Spiritual Growth
               </div>
             </div>
           </div>
           <div className="flex flex-col ml-5 w-[62%] max-md:ml-0 max-md:w-full">
-            <div className="font-kumbhSans text-xl leading-8 text-stone-300 max-md:mt-10 max-md:max-w-full">
+            <div className="font-kumbhSans text-xl leading-8 text-[#BDBDBD] max-md:mt-10 max-md:max-w-full">
               Designed to nurture spiritual growth and deepen your walk with
               Christ, our
               programs offer a range of opportunities to learn, serve, and
@@ -129,7 +129,7 @@ export function LandingPage() {
         <Accordion items={programsList}/>
       </div>
     </div>
-    <div>
+    <div className="flex flex-col items-center">
       <div className="flex flex-col justify-center w-full max-md:max-w-full">
               <div className="font-kumbhSans gap-2.5 self-center px-4 py-2.5 text-[15px] font-normal text-white rounded-3xl bg-zinc-800">
                 PROOF OF MINISTRY
@@ -138,13 +138,13 @@ export function LandingPage() {
                 Stories of Faith, Growth and Transformation
               </div>
           </div>
-          <div className="align-middle justify-center mt-[32px] w-[612px] pl-20 pb-10">
+          <div className=" mt-[32px] w-[80vw] pb-10">
           <BasicCarousel />
           </div>
           
           
     </div>
-    <div className="px-3">
+    <div className="">
     <NewsletterSection />
 
     </div>
