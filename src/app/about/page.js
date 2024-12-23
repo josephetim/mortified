@@ -32,7 +32,7 @@ export default function About () {
               <div className="font-kumbhSans gap-2.5 self-start px-4 py-2.5 text-[15px] font-normal  text-white rounded-3xl bg-zinc-800">
                 FOR OVER HALF A DECADE
               </div>
-              <div className=" font-kumbhSans text-[36px] font-normal mt-6 text-4xl text-neutral-200 max-md:max-w-full">
+              <div className=" font-kumbhSans text-[36px] font-semibold mt-6 text-4xl text-neutral-200 max-md:max-w-full">
                 Revealing the <span className="text-[#828282]"> intents </span>  and <span className="text-[#828282]">purposes</span>   of God to the believer through <span className="text-[#828282]"> the word </span> .
               </div>
             </div>
