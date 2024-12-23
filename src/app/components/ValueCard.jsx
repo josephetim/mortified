@@ -49,7 +49,7 @@ const values = [
 
 export function ValueCard({ icon, title, description }) {
   return (
-    <div className="flex flex-col items-start pt-[32px] pr-[65px] pb-[32px] pl-6 rounded-lg border border-solid bg-neutral-900 border-neutral-800 max-w-[418px] max-md:px-5 max-md:max-w-full">
+    <div className="flex flex-col items-start pt-[32px] pr-[65px] pb-[32px] pl-6 rounded-lg border border-solid bg-neutral-900 border-neutral-800 max-w-[389px] max-md:px-5 max-md:max-w-full">
       <div className="flex flex-col">
         <div className="flex overflow-hidden flex-col self-start">
           <div className="flex overflow-hidden flex-col justify-between px-4 py-5 rounded-xl bg-zinc-800 w-[60px]">
