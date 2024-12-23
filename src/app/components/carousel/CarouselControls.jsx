@@ -16,26 +16,26 @@ export function CarouselPrevButton () {
     );
 }
 
-export const CustomRightArrow = ({ onClick, ...rest }) => {
-    const {
-      onMove,
-      carouselState: { currentSlide, deviceType }
-    } = rest;
-     return (
-        <button className="absolute left-[85%]" onClick={() => onClick()} >
-            <Image src={icons.carousel_next} width={64} height={64} alt="Next" />
-        </button>
-     ) 
-    }
+export const CustomRightArrow = ({ onClick }) => {
+    return (
+      <button
+        className="absolute  right-[0]"
+        onClick={onClick}
+      >
+        <Image src={icons.carousel_next} width={64} height={64} alt="Next" />
+      </button>
+    );
+  };
+  
 
-    export const CustomLeftArrow = ({ onClick, ...rest }) => {
-        const {
-          onMove,
-          carouselState: { currentSlide, deviceType }
-        } = rest;
-         return (
-            <button className="absolute " onClick={() => onClick()} >
-                <Image src={icons.carousel_prev} width={64} height={64} alt="Next" />
-            </button>
-         ) 
-        }
+  export const CustomLeftArrow = ({ onClick }) => {
+    return (
+      <button
+        className=" absolute"
+        onClick={onClick}
+      >
+        <Image src={icons.carousel_prev} width={64} height={64} alt="Previous" />
+      </button>
+    );
+  };
+  

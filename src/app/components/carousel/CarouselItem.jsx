@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function CarouselItem({icon}) {
     return (
-        <div className="carousel-item">
+        <div className="carousel-item flex flex-row gap-2">
             <Image
                 src={icon}
                 alt="Icon"
-                width={200}
-                height={200}
+                width={300}
             />
+            
         </div>
     )
 }

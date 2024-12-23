@@ -138,7 +138,7 @@ export function LandingPage() {
                 Stories of Faith, Growth and Transformation
               </div>
           </div>
-          <div className=" mt-[32px] w-[80vw] pb-10">
+          <div className=" mt-[32px] w-[40vw] pb-10">
           <BasicCarousel />
           </div>
           
