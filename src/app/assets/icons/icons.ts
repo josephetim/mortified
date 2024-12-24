@@ -11,6 +11,8 @@ import instagram from './instagram.png';
 import copyright from './copyright.png';
 import download from './download.png';
 import arr_dwn from './accordionArrow.png'
+import logo from './logo.png'
+import svgLogo from './logo.svg'
 
 export const icons = {
     cubes,
@@ -25,6 +27,8 @@ export const icons = {
     instagram,
     copyright,
     download,
-    arr_dwn
+    arr_dwn,
+    logo,
+    svgLogo
  
 }

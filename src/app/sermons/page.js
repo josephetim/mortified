@@ -18,7 +18,7 @@ export default function Page() {
             <div className="flex items-center justify-center pt-6">
             <NavBar />
             </div>
-            <div className='pl-[70px] pt-[131px] pb-[109px]'>
+            <div className='pl-[70px] pt-[100px] pb-[109px]'>
                 <div className='mb-[43px]'>
                 <p className=' mb-5  font-garamond font-semibold w-[522] text-[96px] leading-[1.1] text-[#FFFF] '>MORTIFIED<br/> SERMONS.</p>
                 {/* <p className=' mt-0 font-garamond font-normal text-[96px] text-[#FFFF]'>  SERMONS.</p> */}

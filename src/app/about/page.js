@@ -17,7 +17,7 @@ export default function About () {
             <NavBar />
             </div>
             <div className="pl-[70px] pr-[87px]">
-                <div className="px-[60px] pt-[49px]">   
+                <div className=" pt-[49px]">   
                     <Image 
                         src={images.about}
                     className="object-contain w-full h-[631px] aspect-square max-md:mt-10"

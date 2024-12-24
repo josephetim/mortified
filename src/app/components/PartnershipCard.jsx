@@ -8,10 +8,10 @@ function AccountDetails({ title, details }) {
       <div className="font-kumbhSans font-semibold text-zinc-800 max-md:max-w-full">
         {title}
       </div>
-      <div className="flex flex-col mt-6 w-full text-neutral-600 max-md:max-w-full">
+      <div className="flex flex-col  mt-6 w-full text-neutral-600 max-md:max-w-full">
         {details.map((detail, index) => (
           <div key={index} className="mt-3 first:mt-0 max-md:max-w-full font-normal font-kumbhSans">
-            {detail.label}: <span className="font-medium font-kumbhSans">{detail.value}</span>
+            {detail.label}: <span className="font-semibold font-kumbhSans">{detail.value}</span>
           </div>
         ))}
       </div>
@@ -46,10 +46,10 @@ function PartnershipSection() {
           <div className="flex flex-col self-stretch my-auto mr-0 max-md:mt-10 max-md:max-w-full">
             <h2 className="self-start text-5xl font-kumbhSans font-semibold text-zinc-800 max-md:max-w-full max-md:text-4xl">
               Interested in partnering
-              <br />
+              <br  />
               with us?
             </h2>
-            <hr/>
+            <hr className="border-[#B7B7B7] h-[1px] mt-[20px] mb-[12px]"  />
             <AccountDetails 
               title={accountDetails.title} 
               details={accountDetails.details} 
