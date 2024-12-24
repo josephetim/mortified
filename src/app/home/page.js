@@ -25,7 +25,7 @@ export function LandingPage() {
       
       <NavBar />
       <div className="flex flex-col items-center pl-[70px] pr-[90px]">
-      <div className="mt-28 text-6xl font-bold text-center font-garamond text-white leading-[90px] w-[929px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[62px]">
+      <div className="mt-10 text-6xl font-bold text-center font-garamond text-white leading-[90px] w-[929px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[62px]">
         THE MORTIFIED CHRISTIAN GROWTH AND DISCIPLESHIP PLATFORM
       </div>
       

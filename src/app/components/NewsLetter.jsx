@@ -31,7 +31,7 @@ function NewsletterContent() {
     <div className="flex flex-col w-full max-md:mt-10 max-md:max-w-full">
       <div className="flex flex-col w-full max-md:max-w-full">
         <h2 className="text-5xl font-semibold text-zinc-800 max-md:text-4xl font-kumbhSans">
-          Subscribe to our Newsletter.
+          Subscribe to our <br/>Newsletter.
         </h2>
         <p className="mt-6 text-xl leading-8 text-neutral-600 max-md:max-w-full font-kumbhSans">
           Join our community by subscribing to our newsletter<br/>
@@ -40,8 +40,8 @@ function NewsletterContent() {
 
           to help you grow spiritually. Stay informed, encouraged, and
           connected with
-          content that uplifts and empowers your journey with Christ.<br/>
-          Don't miss out 
+          content that uplifts and empowers your journey with Christ.
+          Don't miss out <br/>
           Sign up today!
         </p>
       </div>

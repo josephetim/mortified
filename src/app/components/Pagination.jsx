@@ -11,8 +11,8 @@ export default function Pagination({ totalPages }) {
   };
 
   return (
-    <div className="flex gap-2  font-kumbhSans items-center justify-center">
-        <p className='font-kumbhSans text-[#FFFFF]'>Page</p>
+    <div className="flex gap-2  font-kumbhSans items-center justify-center ">
+
       {Array.from({ length: totalPages }, (_, index) => {
         const pageNumber = index + 1;
         return (

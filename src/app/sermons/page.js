@@ -26,9 +26,8 @@ export default function Page() {
                
                 </div>
                 <Image 
-                src={icons.carousel_next}
-                style={{transform: 'rotate(90deg)'}}
-                className='aspect-square w-[48px] object-contain'
+                src={icons.arr_dwn}
+                className='object-contain aspect-square w-[64px] h-[64px]'
                 alt="go down"
             />
             </div>
@@ -68,7 +67,8 @@ export default function Page() {
             <Accordion items={sermons}/>
         </div>
 
-        <div className='items-center flex flex-row mt-12 mb-10 justify-center'>
+        <div className='items-center flex flex-col mt-12 mb-10 justify-center'>
+        <p className='font-kumbhSans text-[#FFFFFF] font-normal text-[16px] mb-4'>Page</p>
             <Pagination totalPages={6}/>
         </div>
         <Footer />

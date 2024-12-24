@@ -33,19 +33,20 @@ export default function Accordion({ items }) {
 function AccordionItem({ title, subtitle, description, iconSrc, isOpen, onClick, download, edition, size }) {
   return (
     <div
-      className={`h-[136px] flex flex-col w-full border-b border-solid border-b-zinc-100 ${
+      className={` flex flex-col w-full border-b border-solid border-b-zinc-100 ${
         isOpen ? "bg-stone-950 text-white" : "bg-stone-950 text-white"
       }`}
     >
       {/* Accordion Header */}
       <div
-        className="flex flex-row justify-between items-center px-4 py-6 cursor-pointer"
+        className="flex flex-row justify-between items-center px-4 py-8 cursor-pointer"
         onClick={onClick}
       >
         <div className="flex flex-col">
-          <div className="text-3xl leading-none mb-[23px] text-[32px] font-normal font- font-kumbhSans">
+          <div className="text-3xl leading-none mb-[12px] text-[32px] font-normal font- font-kumbhSans">
             {title}
           </div>
+
           {subtitle && (
             <div className="mt-1 text-base leading-6 font-normal text-[16px] font-kumbhSans">
               {subtitle}
@@ -62,14 +63,14 @@ function AccordionItem({ title, subtitle, description, iconSrc, isOpen, onClick,
         </div>
         {subtitle && <div
           className={`transition-transform duration-300 ${
-            isOpen ? "rotate-90" : ""
+            isOpen ? "rotate-180" : ""
           }`}
         >
           <Image
             loading="lazy"
             src={iconSrc}
             alt={`${title} icon`}
-            className="object-contain aspect-square w-[32px] h-[32px]"
+            className="object-contain aspect-square w-[64px] h-[64px]"
           />
         </div>}
           {
@@ -81,11 +82,11 @@ function AccordionItem({ title, subtitle, description, iconSrc, isOpen, onClick,
 
       {/* Accordion Content */}
      {description && (<div
-        className={`overflow-hidden transition-all duration-500 ease-in-out ${
+        className={`overflow-hidden transition-all duration-500 ease-in-out  ${
           isOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
         }`}
       >
-        <div className="px-4 py-4 text-base leading-8 border-t border-solid border-t-zinc-100">
+        <div className="font-kumbhSans px-4 pb-[32px] text-base leading-8  border-solid text-[#E0E0E0] border-t-zinc-100">
           {description}
         </div>
       </div>)}

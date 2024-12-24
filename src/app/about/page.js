@@ -12,11 +12,11 @@ import { Footer } from "../components/Footer";
 
 export default function About () {
     return (
-        <div className="bg-stone-950 pt-6 pl-[70px] pr-[87px]">
+        <div className="bg-stone-950 pt-6 ">
             <div className="flex items-center justify-center">
             <NavBar />
             </div>
-            <div>
+            <div className="pl-[70px] pr-[87px]">
                 <div className="px-[70px] pt-[59px]">   
                     <Image 
                         src={images.about}
@@ -33,7 +33,7 @@ export default function About () {
                 FOR OVER HALF A DECADE
               </div>
               <div className=" font-kumbhSans text-[36px] font-semibold mt-6 text-4xl text-neutral-200 max-md:max-w-full">
-                Revealing the <span className="text-[#828282]"> intents </span>  and <span className="text-[#828282]">purposes</span>   of God to the believer through <span className="text-[#828282]"> the word </span> .
+                Revealing the <span className="text-[#828282]"> intents </span>  and <span className="text-[#828282]">purposes</span> of God to the believer through <span className="text-[#828282]"> the word </span> .
               </div>
             </div>
             <div className="flex flex-col items-start mt-7 w-full max-md:max-w-full">
@@ -41,9 +41,9 @@ export default function About () {
               <div className="flex mt-6 max-w-full rounded-lg border border-solid bg-neutral-900 border-neutral-800 min-h-[86px] w-[452px]" />
             </div>
           </div>
-          <div className="flex flex-col self-stretch my-auto text-xl leading-8 min-w-[240px] w-[603px] max-md:max-w-full">
+          <div className="flex flex-col self-stretch text-xl leading-8 min-w-[240px] w-[603px] max-md:max-w-full">
            
-            <div className="font-kumbhSans mt-6 text-[#BDBDBD] max-md:max-w-full">
+            <div className="font-kumbhSans  text-[#BDBDBD] max-md:max-w-full">
               We undertake trainings for our members who are interested 
               having help and guidance with their spiritual walk, through our
               various programs, targeted at achieving growth in the lives of
@@ -104,16 +104,16 @@ export default function About () {
             </div>
           </div>
         </div>
-        <div className="flex flex-row flex-wrap gap-[30px] justify-between items-center pt-[130px]">
+        <div className="flex flex-row flex-wrap gap-x-14 gap-y-[100px] justify-between items-center pt-[130px]">
             {pastorate.map((pastor, index) => <PastorateCard key={index} icon={pastor.icon} name={pastor.name} title={pastor.title} />)}
         </div>
        
       </div>
 
 
-      <div className="flex overflow-hidden flex-col justify-center items-center self-stretch  py-32 w-full bg-stone-950 max-md:px-5 max-md:py-24 max-md:mt-10 max-md:max-w-full">
+      <div className="flex overflow-hidden flex-col justify-center items-start self-stretch  py-32 w-full bg-stone-950 max-md:px-5 max-md:py-24 max-md:mt-10 max-md:max-w-full">
         <div className="flex flex-wrap justify-between w-full gap-10 items-center -mb-6 max-md:mb-2.5 max-md:max-w-full">
-          <div className="flex flex-col self-stretch my-auto min-w-[240px] w-[426px] max-md:max-w-full">
+          <div className="flex flex-col self-stretch  min-w-[240px] w-[426px] max-md:max-w-full">
             <div className="flex flex-col w-full font-semibold max-md:max-w-full">
               <div className="font-kumbhSans gap-2.5 self-start px-4 py-2.5 text-[15px] font-normal  text-white rounded-3xl bg-zinc-800">
                 OUR DEPARTMENTS
