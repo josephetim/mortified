@@ -4,7 +4,10 @@ import { FooterLink } from "./FooterLink";
 import Image from "next/image";
 import { icons } from "../assets/icons/icons";
 
-const companyLinks = ["Home", "About Us", "Contact Us"];
+const companyLinks =[
+    {title: "Home", href: "/"}, {title: "About Us", href: "/about"}, {title: "Contact Us", href: "/contact"}
+]
+
 const socialIcons = [
   { src: icons.twitter, alt: "Social media icon 1" },
   { src: icons.facebook, alt: "Social media icon 2" },
@@ -47,7 +50,7 @@ export const Footer = () => {
               <div className="font-semibold text-white font-kumbhSans">Company</div>
               <div className="flex flex-col mt-6 w-full ">
                 {companyLinks.map((link, index) => (
-                  <FooterLink key={index} text={link} />
+                  <FooterLink key={index} href={link.href} text={link.title} />
                 ))}
               </div>
               <div className="flex gap-6 items-center mt-[86.5px] self-stretch my-auto">

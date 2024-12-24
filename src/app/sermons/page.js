@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import { NavBar } from '../components/NavBar';
 import { images } from '../assets/images/images';
@@ -9,6 +10,11 @@ import Pagination from '../components/Pagination';
 import { Footer } from '../components/Footer';
 
 export default function Page() {
+
+    const scrollToSection = () => {
+        const section = document.getElementById('sermons');
+        section.scrollIntoView({ behavior: "smooth" });
+    }
   return (
     <div className='bg-stone-950'>
         <div
@@ -25,15 +31,17 @@ export default function Page() {
                 <p className='font-kumbhSans text-[36px] font-normal text-[#8E8E8E] w-[522px]'>The sword of the Spirit with an electronic edge</p>
                
                 </div>
-                <Image 
-                src={icons.arr_dwn}
-                className='object-contain aspect-square w-[64px] h-[64px]'
-                alt="go down"
-            />
+                    <Image 
+                    onClick={scrollToSection}
+                    src={icons.arr_dwn} 
+                    className='object-contain cursor-pointer aspect-square w-[64px] h-[64px]'
+                    alt="go down"
+                />
+               
             </div>
         </div>
 
-     <div className="flex overflow-hidden flex-col justify-center items-center self-stretch px-16 py-32  w-full bg-stone-950 max-md:px-5 max-md:py-24 max-md:mt-10 max-md:max-w-full">
+     <div id='sermons' className="flex overflow-hidden flex-col justify-center items-center self-stretch px-16 py-32  w-full bg-stone-950 max-md:px-5 max-md:py-24 max-md:mt-10 max-md:max-w-full">
         <div className="flex flex-wrap gap-10 justify-between w-full items-center -mb-6 max-md:mb-2.5 max-md:max-w-full">
           <div className="flex flex-col self-stretch my-auto min-w-[240px] w-[426px] max-md:max-w-full">
             <div className="flex flex-col w-full font-semibold max-md:max-w-full">
@@ -50,7 +58,7 @@ export default function Page() {
               <div className="flex mt-6 max-w-full rounded-lg border border-solid bg-neutral-900 border-neutral-800 min-h-[86px] w-[452px]" />
             </div>
           </div>
-          <div className="flex flex-col self-stretch my-auto text-xl leading-8 min-w-[240px] w-[603px] max-md:max-w-full">
+          <div className="flex flex-col self-stretch  text-xl leading-8 min-w-[240px] w-[603px] max-md:max-w-full">
            
             <div className="font-kumbhSans mt-6 text-stone-300 max-md:max-w-full">
             Dive into a treasure trove of wisdom and spiritual growth with

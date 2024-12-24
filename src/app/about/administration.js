@@ -6,7 +6,16 @@ export const administration = [
       id: 1,
       title: "THE ADMINISTRATION",
       subtitle: "Responsible for the day-to-day running of the platform",
-      description: "Reprehenderit minim enim occaecat ad tempor Lorem minim ad. Sit proident incididunt dolor est non ad cillum ea qui nisi exercitation magna incididunt. Cupidatat anim elit commodo quis commodo nostrud esse magna reprehenderit eiusmod culpa commodo. Aute est nisi anim qui est ea veniam ipsum in nulla cupidatat mollit quis do. Ea tempor cillum adipisicing eiusmod eu exercitation deserunt ipsum adipisicing aute proident nostrud veniam. Dolor eu incididunt et duis aliqua irure.Enim laboris elit id ut laborum deserunt. Enim occaecat fugiat incididunt deserunt nulla consectetur. Adipisicing non proident proident elit ullamco non incididunt laborum labore consectetur minim. Pariatur enim qui id ad aute.Adipisicing pariatur cillum consectetur amet incididunt. Deserunt id in proident nostrud reprehenderit officia nulla labore in exercitation laborum amet in voluptate. Deserunt nisi cupidatat in mollit occaecat dolor elit. Cupidatat ullamco deserunt aliqua esse id nisi quis labore laborum laboris. Exercitation voluptate do elit qui dolore minim laborum qui irure.",
+      description: (
+        <div className="flex flex-col gap-[12px]">
+                <p className="text-[#E0E0E0] font-kumbhSans font-semibold">Glory Ruby - <span className="font-kumbhSans font-normal">Team Lead</span></p>
+                <p className="text-[#E0E0E0] font-kumbhSans font-semibold">Shelunim Utam - <span className="font-kumbhSans font-normal">Asst. Team Lead</span></p>
+                <p className="text-[#E0E0E0] font-kumbhSans font-semibold">Ayebatari Inala - <span className="font-kumbhSans font-normal">Member</span></p>
+                <p className="text-[#E0E0E0] font-kumbhSans font-semibold">Queen Ekanem  - <span className="font-kumbhSans font-normal">Member</span></p>
+                <p className="text-[#E0E0E0] font-kumbhSans font-semibold">Adaugo Duru - <span className="font-kumbhSans font-normal">Member</span></p>
+         
+        </div>
+      ),
       iconSrc: icons.arr_dwn
     },
     {
@@ -14,34 +23,65 @@ export const administration = [
       title: "DEPARTMENT OF TRAINING",
       subtitle: "Oversees the training of the workforce.",
       iconSrc: icons.arr_dwn,
-      description: "Reprehenderit minim enim occaecat ad tempor Lorem minim ad. Sit proident incididunt dolor est non ad cillum ea qui nisi exercitation magna incididunt. Cupidatat anim elit commodo quis commodo nostrud esse magna reprehenderit eiusmod culpa commodo. Aute est nisi anim qui est ea veniam ipsum in nulla cupidatat mollit quis do. Ea tempor cillum adipisicing eiusmod eu exercitation deserunt ipsum adipisicing aute proident nostrud veniam. Dolor eu incididunt et duis aliqua irure.Enim laboris elit id ut laborum deserunt. Enim occaecat fugiat incididunt deserunt nulla consectetur. Adipisicing non proident proident elit ullamco non incididunt laborum labore consectetur minim. Pariatur enim qui id ad aute.Adipisicing pariatur cillum consectetur amet incididunt. Deserunt id in proident nostrud reprehenderit officia nulla labore in exercitation laborum amet in voluptate. Deserunt nisi cupidatat in mollit occaecat dolor elit. Cupidatat ullamco deserunt aliqua esse id nisi quis labore laborum laboris. Exercitation voluptate do elit qui dolore minim laborum qui irure."
+      description: (
+        <div className="flex flex-col gap-[12px]">
+                <p className="text-[#E0E0E0] font-kumbhSans font-semibold">Train Ebi - <span className="font-kumbhSans font-normal">Team Lead</span></p>
+                <p className="text-[#E0E0E0] font-kumbhSans font-semibold">Grace Ochela - <span className="font-kumbhSans font-normal">Member</span></p>
+                <p className="text-[#E0E0E0] font-kumbhSans font-semibold">Kenneth Henry Goni - <span className="font-kumbhSans font-normal">Member</span></p>
+                <p className="text-[#E0E0E0] font-kumbhSans font-semibold">Delight Modekwe  - <span className="font-kumbhSans font-normal">Member</span></p>
+               
+         
+        </div>
+      )
     },
     {
       id: 3,
       title: "THE COUNSELLORS FORUM",
       subtitle: "Made up of all active counsellors on the platform",
       iconSrc: icons.arr_dwn,
-      description: "Reprehenderit minim enim occaecat ad tempor Lorem minim ad. Sit proident incididunt dolor est non ad cillum ea qui nisi exercitation magna incididunt. Cupidatat anim elit commodo quis commodo nostrud esse magna reprehenderit eiusmod culpa commodo. Aute est nisi anim qui est ea veniam ipsum in nulla cupidatat mollit quis do. Ea tempor cillum adipisicing eiusmod eu exercitation deserunt ipsum adipisicing aute proident nostrud veniam. Dolor eu incididunt et duis aliqua irure.Enim laboris elit id ut laborum deserunt. Enim occaecat fugiat incididunt deserunt nulla consectetur. Adipisicing non proident proident elit ullamco non incididunt laborum labore consectetur minim. Pariatur enim qui id ad aute.Adipisicing pariatur cillum consectetur amet incididunt. Deserunt id in proident nostrud reprehenderit officia nulla labore in exercitation laborum amet in voluptate. Deserunt nisi cupidatat in mollit occaecat dolor elit. Cupidatat ullamco deserunt aliqua esse id nisi quis labore laborum laboris. Exercitation voluptate do elit qui dolore minim laborum qui irure."
+      description: (
+        <p className="text-[#E0E0E0] font-kumbhSans font-semibold">Obie Umenwa  - <span className="font-kumbhSans font-normal"> Provost, Counsellors Forum</span></p>
+      )
     },
     {
       id: 4,
       title: "THE MEDIA DEPARTMENT",
       subtitle: "Responsible for managing online presence and media concerns",
       iconSrc: icons.arr_dwn,
-      description: "Reprehenderit minim enim occaecat ad tempor Lorem minim ad. Sit proident incididunt dolor est non ad cillum ea qui nisi exercitation magna incididunt. Cupidatat anim elit commodo quis commodo nostrud esse magna reprehenderit eiusmod culpa commodo. Aute est nisi anim qui est ea veniam ipsum in nulla cupidatat mollit quis do. Ea tempor cillum adipisicing eiusmod eu exercitation deserunt ipsum adipisicing aute proident nostrud veniam. Dolor eu incididunt et duis aliqua irure.Enim laboris elit id ut laborum deserunt. Enim occaecat fugiat incididunt deserunt nulla consectetur. Adipisicing non proident proident elit ullamco non incididunt laborum labore consectetur minim. Pariatur enim qui id ad aute.Adipisicing pariatur cillum consectetur amet incididunt. Deserunt id in proident nostrud reprehenderit officia nulla labore in exercitation laborum amet in voluptate. Deserunt nisi cupidatat in mollit occaecat dolor elit. Cupidatat ullamco deserunt aliqua esse id nisi quis labore laborum laboris. Exercitation voluptate do elit qui dolore minim laborum qui irure.",
+      description: (
+        <div className="flex flex-col gap-[12px]">
+                <p className="text-[#E0E0E0] font-kumbhSans font-semibold">Eric Gugua - <span className="font-kumbhSans font-normal">Team Lead</span></p>
+                <p className="text-[#E0E0E0] font-kumbhSans font-semibold">Obie Umenwa - <span className="font-kumbhSans font-normal">Asst. Team Lead</span></p>
+                <p className="text-[#E0E0E0] font-kumbhSans font-semibold">Diepreye Dickson - <span className="font-kumbhSans font-normal">Member</span></p>
+                <p className="text-[#E0E0E0] font-kumbhSans font-semibold">Adaugo Duru  - <span className="font-kumbhSans font-normal">Member</span></p>
+                <p className="text-[#E0E0E0] font-kumbhSans font-semibold">Grace Ochela  - <span className="font-kumbhSans font-normal">Member</span></p>
+               
+         
+        </div>
+      ),
     },
     {
       id: 5,
       title: "PRAYER DEPARTMENT",
       subtitle: "Responsible for all intercessory activities for and with the member of Mortified",
       iconSrc: icons.arr_dwn,
-      description: "Reprehenderit minim enim occaecat ad tempor Lorem minim ad. Sit proident incididunt dolor est non ad cillum ea qui nisi exercitation magna incididunt. Cupidatat anim elit commodo quis commodo nostrud esse magna reprehenderit eiusmod culpa commodo. Aute est nisi anim qui est ea veniam ipsum in nulla cupidatat mollit quis do. Ea tempor cillum adipisicing eiusmod eu exercitation deserunt ipsum adipisicing aute proident nostrud veniam. Dolor eu incididunt et duis aliqua irure.Enim laboris elit id ut laborum deserunt. Enim occaecat fugiat incididunt deserunt nulla consectetur. Adipisicing non proident proident elit ullamco non incididunt laborum labore consectetur minim. Pariatur enim qui id ad aute.Adipisicing pariatur cillum consectetur amet incididunt. Deserunt id in proident nostrud reprehenderit officia nulla labore in exercitation laborum amet in voluptate. Deserunt nisi cupidatat in mollit occaecat dolor elit. Cupidatat ullamco deserunt aliqua esse id nisi quis labore laborum laboris. Exercitation voluptate do elit qui dolore minim laborum qui irure.",
+      description: (
+        <div className="flex flex-col gap-[12px]">
+        <p className="text-[#E0E0E0] font-kumbhSans font-semibold">Immanuel Joseph - <span className="font-kumbhSans font-normal">Team Lead</span></p>
+        <p className="text-[#E0E0E0] font-kumbhSans font-semibold">Omamohdi Kome - <span className="font-kumbhSans font-normal">Member</span></p>
+        <p className="text-[#E0E0E0] font-kumbhSans font-semibold">Bildad Luka  - <span className="font-kumbhSans font-normal">Member</span></p>
+       
+</div>
+      ),
     },
     {
       id: 6,
       title: "MORTIFIED CAMPUS OUTREACH",
       subtitle: "Responsible for our outreach programs to campuses",
       iconSrc: icons.arr_dwn,
-      description: "Reprehenderit minim enim occaecat ad tempor Lorem minim ad. Sit proident incididunt dolor est non ad cillum ea qui nisi exercitation magna incididunt. Cupidatat anim elit commodo quis commodo nostrud esse magna reprehenderit eiusmod culpa commodo. Aute est nisi anim qui est ea veniam ipsum in nulla cupidatat mollit quis do. Ea tempor cillum adipisicing eiusmod eu exercitation deserunt ipsum adipisicing aute proident nostrud veniam. Dolor eu incididunt et duis aliqua irure.Enim laboris elit id ut laborum deserunt. Enim occaecat fugiat incididunt deserunt nulla consectetur. Adipisicing non proident proident elit ullamco non incididunt laborum labore consectetur minim. Pariatur enim qui id ad aute.Adipisicing pariatur cillum consectetur amet incididunt. Deserunt id in proident nostrud reprehenderit officia nulla labore in exercitation laborum amet in voluptate. Deserunt nisi cupidatat in mollit occaecat dolor elit. Cupidatat ullamco deserunt aliqua esse id nisi quis labore laborum laboris. Exercitation voluptate do elit qui dolore minim laborum qui irure.",
+      description: (
+        <p className="text-[#E0E0E0] font-kumbhSans font-semibold">Ashi Utam  - <span className="font-kumbhSans font-normal">Head</span></p>
+       
+      ),
     }
   ];

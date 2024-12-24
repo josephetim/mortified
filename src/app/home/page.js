@@ -4,9 +4,12 @@ import {ValueCards } from "../components/ValueCard";
 import { NavBar } from "../components/NavBar";
 import Accordion from "../components/AccordionItem";
 import { programsList } from "./ProgramsData";
+import Carousel from '../components/customCarousel/carousels'
 import BasicCarousel from "../components/carousel/Carousel";
 import NewsletterSection from "../components/NewsLetter";
 import { Footer } from "../components/Footer";
+import Image from "next/image";
+import { images } from "../assets/images/images";
 
 const navItems = [
   { label: "LOGO" },
@@ -21,11 +24,12 @@ const navItems = [
 export function LandingPage() {
   return (
     <div className="bg-stone-950">
-          <div className="flex overflow-hidden items-center flex-col   pt-5 bg-stone-950 max-md:pt-24">
+      <div className="flex overflow-hidden items-center flex-col   pt-5 bg-stone-950 max-md:pt-24">
       
-      <NavBar />
       <div className="flex flex-col items-center pl-[70px] pr-[90px]">
-      <div className="mt-10 text-6xl font-bold text-center font-garamond text-white leading-[90px] w-[929px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[62px]">
+        <div  style={{ backgroundImage: `url('/herobg.png')`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}  className="relative flex flex-col items-center">
+        <NavBar />
+        <div className="mt-10 text-6xl font-bold text-center font-garamond text-white leading-[90px] w-[929px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[62px]">
         THE MORTIFIED CHRISTIAN GROWTH AND DISCIPLESHIP PLATFORM
       </div>
       
@@ -37,9 +41,11 @@ export function LandingPage() {
         our community.
       </div>
       
-      <button className=" font-poppins gap-2.5  p-4 mt-20 text-xl bg-white rounded-lg text-stone-950 max-md:mt-10">
+      <button className="  font-poppins gap-2.5  p-4 mt-20 text-xl bg-white rounded-lg text-stone-950 max-md:mt-10">
         Join our community
       </button>
+        </div>
+      
       
       <div className="flex overflow-hidden flex-col justify-center items-center self-stretch py-32 mt-20 w-full bg-stone-950 max-md:px-5 max-md:py-24 max-md:mt-10 max-md:max-w-full">
         <div className="flex flex-wrap gap-10 w-full items-center justify-between -mb-6 max-md:mb-2.5 max-md:max-w-full">
@@ -133,7 +139,7 @@ export function LandingPage() {
         <Accordion items={programsList}/>
       </div>
     </div>
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center w-full">
       <div className="flex flex-col justify-center w-full max-md:max-w-full">
               <div className="font-kumbhSans gap-2.5 self-center px-4 py-2.5 text-[15px] font-normal text-white rounded-3xl bg-zinc-800">
                 PROOF OF MINISTRY
@@ -142,8 +148,8 @@ export function LandingPage() {
                 Stories of Faith, Growth and Transformation
               </div>
           </div>
-          <div className=" mt-[32px] w-[40vw] pb-10">
-          <BasicCarousel />
+          <div className=" mt-[32px] w-[100%]  pb-10">
+            <Carousel />
           </div>
           
           

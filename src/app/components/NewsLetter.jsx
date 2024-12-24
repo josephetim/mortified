@@ -4,20 +4,27 @@ import Image from "next/image";
 
 export default function NewsletterSection() {
   return (
-    <div className="overflow-hidden px-14 py-12 bg-neutral-200 rounded-[32px] max-md:px-5">
+    <div className="overflow-hidden relative  bg-neutral-200 rounded-[32px] max-md:px-5">
       <div className="flex gap-5 max-md:flex-col">
-        <div className="flex flex-col w-[67%] max-md:ml-0 max-md:w-full">
+        <div className="flex flex-col px-14 py-12 w-[67%] max-md:ml-0 max-md:w-full">
           <NewsletterContent />
           <NewsletterForm />
         </div>
-        <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
-          <div className="flex flex-col self-stretch my-auto max-md:mt-10">
+        <div className="flex ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+          <div className="flex   max-md:mt-10">
             <Image
               loading="lazy"
               src={images.newsletterIllustration}
               alt="Newsletter subscription illustration"
-              className="object-contain max-w-full aspect-[1.19] w-[352px]"
+              className=" absolute h-[100%] right-0 top-0 max-w-full aspect-[1.19] w-[52%]"
             />
+            <Image
+              loading="lazy"
+              src={images.linesBg}
+              alt="Newsletter subscription illustration"
+              className=" absolute h-[60%] left-0 top-0 max-w-full aspect-[1.19] w-[50%]"
+            />
+
           </div>
         </div>
       </div>

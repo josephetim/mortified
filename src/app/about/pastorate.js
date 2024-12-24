@@ -29,7 +29,7 @@ export const pastorate = [
         title: 'Head of Training'
     },
     {
-        name: "Immanuel Etim",
+        name: "Immanuel Joseph",
         icon: images.immanuel,
         title: 'Head, Prayer Department'
     },

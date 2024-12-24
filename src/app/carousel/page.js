@@ -1,5 +1,5 @@
 import React from 'react';
-import Carousel from './carousels';
+import Carousel from '../components/customCarousel/carousels'
 import { images } from '../assets/images/images';
 
 const items = [
@@ -10,9 +10,12 @@ const items = [
 
 const App = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-stone-950">
       <h1 className="text-2xl font-bold mb-6">Tailwind Carousel</h1>
-      <Carousel items={items} />
+      <div className='w-[80vw] relative'>
+      <Carousel  />
+      </div>
+     
     </div>
   );
 };

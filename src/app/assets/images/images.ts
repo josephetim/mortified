@@ -22,6 +22,8 @@ import tunnelImg7 from './tunnelImg7.png';
 import tunnelImg8 from './tunnelImg8.png';
 import tunnelImg9 from './tunnelImg9.png';
 import tunnelImg10 from './tunnelImg10.png';
+import linesBg from './linesbg.png';
+// import heroBg from './herobg.png'
 
 
 
@@ -51,7 +53,8 @@ export const images = {
     tunnelImg7,
     tunnelImg8,
     tunnelImg9,
-    tunnelImg10
+    tunnelImg10,
+    linesBg,
     
     
 
