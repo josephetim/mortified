@@ -49,6 +49,7 @@ function PartnershipSection() {
               <br />
               with us?
             </h2>
+            <hr/>
             <AccountDetails 
               title={accountDetails.title} 
               details={accountDetails.details} 
