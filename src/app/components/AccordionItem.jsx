@@ -33,7 +33,7 @@ export default function Accordion({ items }) {
 function AccordionItem({ title, subtitle, description, iconSrc, isOpen, onClick, download, edition, size }) {
   return (
     <div
-      className={`flex flex-col w-full border-b border-solid border-b-zinc-100 ${
+      className={`h-[136px] flex flex-col w-full border-b border-solid border-b-zinc-100 ${
         isOpen ? "bg-stone-950 text-white" : "bg-stone-950 text-white"
       }`}
     >
@@ -43,7 +43,7 @@ function AccordionItem({ title, subtitle, description, iconSrc, isOpen, onClick,
         onClick={onClick}
       >
         <div className="flex flex-col">
-          <div className="text-3xl leading-none text-[32px] font-normal font- font-kumbhSans">
+          <div className="text-3xl leading-none mb-[23px] text-[32px] font-normal font- font-kumbhSans">
             {title}
           </div>
           {subtitle && (

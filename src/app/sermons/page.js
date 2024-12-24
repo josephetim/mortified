@@ -20,7 +20,7 @@ export default function Page() {
             </div>
             <div className='pl-[70px] pt-[131px] pb-[109px]'>
                 <div className='mb-[43px]'>
-                <p className=' mb-5  font-garamond font-normal w-[522] text-[96px] leading-[1.1] text-[#FFFF] '>MORTIFIED SERMONS.</p>
+                <p className=' mb-5  font-garamond font-semibold w-[522] text-[96px] leading-[1.1] text-[#FFFF] '>MORTIFIED SERMONS.</p>
                 {/* <p className=' mt-0 font-garamond font-normal text-[96px] text-[#FFFF]'>  SERMONS.</p> */}
                 <p className='font-kumbhSans text-[36px] font-normal text-[#8E8E8E] w-[522px]'>The sword of the Spirit with an electronic edge</p>
                

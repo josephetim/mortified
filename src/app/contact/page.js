@@ -3,6 +3,7 @@ import { NavBar } from '../components/NavBar'
 import { icons } from '../assets/icons/icons';
 import Image from 'next/image';
 import { SocialIcon } from '../components/SocialIcon';
+import Panorama from '../components/TunnelCarousel';
 import { images } from '../assets/images/images';
 
 export default function Contact() {
@@ -21,11 +22,12 @@ export default function Contact() {
             <p className='font-garamond text-white text-[96px] '>We want to hear from you</p>
         </div>
         <div>
-            <Image 
+            {/* <Image 
                 src= {images.family}
                 alt="family"
 
-            />
+            /> */}
+            <Panorama />
         </div>
         <div className='flex flex-col items-center pt-4 '>
             <p className='font-kumbhSans text-[#F2F2F2] font-normal text-[20px]'><span className='font-semibold'>Mortified</span> is a Family.<br /></p>

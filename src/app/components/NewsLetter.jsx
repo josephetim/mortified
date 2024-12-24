@@ -1,5 +1,6 @@
 import * as React from "react";
-
+import { images } from "../assets/images/images";
+import Image from "next/image";
 
 export default function NewsletterSection() {
   return (
@@ -11,9 +12,9 @@ export default function NewsletterSection() {
         </div>
         <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
           <div className="flex flex-col self-stretch my-auto max-md:mt-10">
-            <img
+            <Image
               loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/3b85b14153e1ae2400e6325a2d8bd633250a491691cbf1f1ce66bb16feddacb5?placeholderIfAbsent=true&apiKey=b6f033a57499465b896f604c46ab0dcb"
+              src={images.newsletterIllustration}
               alt="Newsletter subscription illustration"
               className="object-contain max-w-full aspect-[1.19] w-[352px]"
             />
@@ -30,20 +31,17 @@ function NewsletterContent() {
     <div className="flex flex-col w-full max-md:mt-10 max-md:max-w-full">
       <div className="flex flex-col w-full max-md:max-w-full">
         <h2 className="text-5xl font-semibold text-zinc-800 max-md:text-4xl font-kumbhSans">
-          Subscribe to our <br />
-          Newsletter.
+          Subscribe to our Newsletter.
         </h2>
         <p className="mt-6 text-xl leading-8 text-neutral-600 max-md:max-w-full font-kumbhSans">
-          Join our community by subscribing to our newsletter,
-          <br />
+          Join our community by subscribing to our newsletter<br/>
           Receive regular updates on upcoming events, stories of faith,
           and resources
-          <br />
-          to help you grow spiritually. Stay informed, encouraged, and
+
+          to help you grow spiritually. <br/>Stay informed, encouraged, and
           connected with
-          <br />
-          content that uplifts and empowers your journey with Christ.
-          Don't miss out <br />
+          content that uplifts and empowers your journey with Christ.<br/>
+          Don't miss out 
           Sign up today!
         </p>
       </div>
