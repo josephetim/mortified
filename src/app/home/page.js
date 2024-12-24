@@ -62,9 +62,12 @@ export function LandingPage() {
               <span className="font-semibold">Mortified{" "}</span>
                 
               <span className="text-[#BDBDBD]">
-              is a non-denominational, Christian Discipleship and{" "}
-                normal Christian life. We are not bound by geographical factors{" "}
-                thereby ensuring that the gospel of the kingdom reaches out to{" "}
+              non-denominational, Christian Discipleship and 
+              growth platform that fosters the believer’s journey. We hold fast 
+              the tenets of scripture with relation to Christian doctrine and the 
+              normal Christian life. We are not bound by geographical factors 
+              thereby ensuring that the gospel of the kingdom reaches out to 
+              the believer in every part of the world.
               </span>
               <span className="text-[#BDBDBD]">
                 the believer in every part of the world.
@@ -145,18 +148,13 @@ export function LandingPage() {
           
           
     </div>
-    <div className="">
-    <NewsletterSection />
-
-    </div>
+      <div className="">
+        <NewsletterSection />
       </div>
-    
-    
-   
-
     </div>
+  </div>
     <div className="mt-[159px]">
-    <Footer />
+      <Footer />
     </div>
     </div>
 

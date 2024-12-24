@@ -19,11 +19,15 @@ export const Footer = () => {
         <div className="flex flex-wrap gap-10 items-start w-full text-xl max-md:max-w-full">
           <div className="flex flex-col grow shrink font-semibold w-[180px]">
             <div className="gap-2.5 self-start p-2.5 whitespace-nowrap text-zinc-100">
-              LOGO
+             <Image
+                alt="logo"
+                src={icons.logo}
+                className="object-contain aspect-square w-[75px] h-[75px]"
+             />
             </div>
             <div className="mt-6 text-stone-500 font-kumbhSans">The Mortified One</div>
             <div className="flex flex-wrap gap-10 justify-between items-center mt-20 max-w-full w-[990px] max-md:mt-10">
-          <div className="flex gap-1 items-center self-stretch my-auto text-xl min-w-[240px] mt-[92px] text-stone-500">
+          <div className="flex gap-1 items-center self-stretch my-auto text-xl min-w-[240px] mt-[62px] text-stone-500">
             <div className="self-stretch my-auto w-[100px] font-normal font-kumbhSans">Copyright</div>
             <Image
               loading="lazy"

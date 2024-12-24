@@ -129,13 +129,14 @@ export default function About () {
               <span className="font-semibold">Mortified{" "}</span>
                 
               <span className="text-stone-300">
-              is a non-denominational, Christian Discipleship and{" "}
-                normal Christian life. We are not bound by geographical factors{" "}
-                thereby ensuring that the gospel of the kingdom reaches out to{" "}
+              non-denominational, Christian Discipleship and 
+              growth platform that fosters the believer’s journey. We hold fast 
+              the tenets of scripture with relation to Christian doctrine and the 
+              normal Christian life. We are not bound by geographical factors 
+              thereby ensuring that the gospel of the kingdom reaches out to 
+              the believer in every part of the world.
               </span>
-              <span className="text-stone-300">
-                the believer in every part of the world.
-              </span>
+           
             </div>
             <div className="font-kumbhSans mt-6 text-stone-300 max-md:max-w-full">
               We undertake trainings for our members who are interested 

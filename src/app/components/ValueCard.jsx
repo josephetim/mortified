@@ -64,7 +64,7 @@ export function ValueCard({ icon, title, description }) {
             {title}
           </div>
         </div>
-        <div className="font-kumbhSans text-[15px] font-normal mt-3 text-base leading-6 text-stone-300">
+        <div className="font-kumbhSans text-[15px] font-normal mt-3 text-base leading-6 text-[#BDBDBD]">
           {description}
         </div>
       </div>
