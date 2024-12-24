@@ -10,7 +10,7 @@ function AccountDetails({ title, details }) {
       </div>
       <div className="flex flex-col mt-6 w-full text-neutral-600 max-md:max-w-full">
         {details.map((detail, index) => (
-          <div key={index} className="mt-3 first:mt-0 max-md:max-w-full font-kumbhSans">
+          <div key={index} className="mt-3 first:mt-0 max-md:max-w-full font-normal font-kumbhSans">
             {detail.label}: <span className="font-medium font-kumbhSans">{detail.value}</span>
           </div>
         ))}
