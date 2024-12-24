@@ -40,7 +40,7 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-wrap gap-10 justify-between items-center mt-20 max-w-full w-[1037px] max-md:mt-10">
+        <div className="flex flex-wrap gap-10 justify-between items-center mt-20 max-w-full w-[990px] max-md:mt-10">
           <div className="flex gap-1 items-center self-stretch my-auto text-xl min-w-[240px] text-stone-500">
             <div className="self-stretch my-auto w-[100px] font-kumbhSans">Copyright</div>
             <Image

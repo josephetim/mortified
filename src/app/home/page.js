@@ -20,7 +20,8 @@ const navItems = [
 
 export function LandingPage() {
   return (
-    <div className="flex overflow-hidden items-center flex-col   pt-5 bg-stone-950 max-md:pt-24">
+    <div className="bg-stone-950">
+          <div className="flex overflow-hidden items-center flex-col   pt-5 bg-stone-950 max-md:pt-24">
       
       <NavBar />
       <div className="flex flex-col items-center pl-[70px] pr-[90px]">
@@ -151,10 +152,13 @@ export function LandingPage() {
       </div>
     
     
+   
+
+    </div>
     <div className="mt-[159px]">
     <Footer />
     </div>
-
     </div>
+
   );
 }
