@@ -45,9 +45,7 @@ function NewsletterContent() {
           Receive regular updates on upcoming events, stories of faith,
           and resources
 
-          to help you grow spiritually. Stay informed, encouraged, and
-          connected with
-          content that uplifts and empowers your journey with Christ.
+          to help you grow spiritually. 
           Don't miss out <br/>
           Sign up today!
         </p>
