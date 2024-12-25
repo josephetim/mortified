@@ -25,7 +25,7 @@ export const administration = [
       iconSrc: icons.arr_dwn,
       description: (
         <div className="flex flex-col gap-[12px]">
-                <p className="text-[#E0E0E0] font-kumbhSans font-semibold">Train Ebi - <span className="font-kumbhSans font-normal">Team Lead</span></p>
+                <p className="text-[#E0E0E0] font-kumbhSans font-semibold">Train Duru - <span className="font-kumbhSans font-normal">Team Lead</span></p>
                 <p className="text-[#E0E0E0] font-kumbhSans font-semibold">Grace Ochela - <span className="font-kumbhSans font-normal">Member</span></p>
                 <p className="text-[#E0E0E0] font-kumbhSans font-semibold">Kenneth Henry Goni - <span className="font-kumbhSans font-normal">Member</span></p>
                 <p className="text-[#E0E0E0] font-kumbhSans font-semibold">Delight Modekwe  - <span className="font-kumbhSans font-normal">Member</span></p>
