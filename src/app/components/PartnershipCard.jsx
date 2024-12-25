@@ -67,7 +67,7 @@ function PartnershipSection() {
             loading="lazy"
             src={images.transferIllustration}
             alt="Partnership illustration"
-            className=" grow w-full aspect-[1.6] max-md:max-w-full"
+            className="object-cover grow w-full aspect-[1.6] max-md:max-w-full"
           />
         </div>
       </div>
