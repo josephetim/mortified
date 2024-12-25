@@ -1,20 +1,28 @@
 "use client";
 
-import { useState } from "react";
-import {  images } from "../../assets/images/images";
+import { useState, useEffect } from "react";
 import Image from "next/image";
+import { images } from "../../assets/images/images";
 import { icons } from "../../assets/icons/icons";
 
 const Carousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [visibleItemsCount, setVisibleItemsCount] = useState(3); // Default for large screens
 
-  const getVisibleItemsCount = () => {
-    if (window.innerWidth < 640) return 1; // Small screens
-    if (window.innerWidth < 1024) return 2; // Medium screens
-    return 3; // Large screens
-  };
+  useEffect(() => {
+    const updateVisibleItemsCount = () => {
+      if (typeof window !== "undefined") {
+        if (window.innerWidth < 640) setVisibleItemsCount(1); // Small screens
+        else if (window.innerWidth < 1024) setVisibleItemsCount(2); // Medium screens
+        else setVisibleItemsCount(3); // Large screens
+      }
+    };
 
-  const visibleItemsCount = getVisibleItemsCount();
+    updateVisibleItemsCount(); // Set initial value
+    window.addEventListener("resize", updateVisibleItemsCount);
+
+    return () => window.removeEventListener("resize", updateVisibleItemsCount);
+  }, []);
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) => {
@@ -62,26 +70,19 @@ const Carousel = ({ images }) => {
       </div>
 
       {/* Navigation Buttons */}
-      <button
-        className="absolute left-0"
-        onClick={handlePrev}
-      >
-       <Image 
-                src={icons.carousel_prev}
-                alt="carousel_prev"
-                className="object-contain aspect-square w-[64px] h-[64px]"
-       />
+      <button className="absolute left-0" onClick={handlePrev}>
+        <Image
+          src={icons.carousel_prev}
+          alt="carousel_prev"
+          className="object-contain aspect-square w-[64px] h-[64px]"
+        />
       </button>
-      <button
-        className="absolute right-0  p-3 rounded-full"
-        onClick={handleNext}
-      >
-      <Image 
-                src={icons.carousel_next}
-                alt="carousel_next"
-                className="object-contain aspect-square  w-[64px] h-[64px]"
-
-       />
+      <button className="absolute right-0 p-3 rounded-full" onClick={handleNext}>
+        <Image
+          src={icons.carousel_next}
+          alt="carousel_next"
+          className="object-contain aspect-square  w-[64px] h-[64px]"
+        />
       </button>
     </div>
   );
