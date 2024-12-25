@@ -16,6 +16,8 @@ export default function Contact() {
   return (
     <div className='bg-[#0E0E0E]'>
        <div className="flex items-center justify-center pt-6">
+       <section data-page="4" className="hidden"></section>
+
             <NavBar />
             </div>
         <div className='flex items-center justify-center'>

@@ -46,70 +46,70 @@ const Panorama = () => {
             <Image
               className="slide-image"
               src={images.tunnelImg1}
-              alt=""
+              alt="family"
             />
           </div>
           <div className="swiper-slide">
             <Image
               className="slide-image"
               src={images.tunnelImg2}
-              alt=""
+              alt="family"
             />
           </div>
           <div className="swiper-slide">
             <Image
               className="slide-image"
               src={images.tunnelImg3}
-              alt=""
+              alt="family"
             />
           </div>
           <div className="swiper-slide">
             <Image
               className="slide-image"
               src={images.tunnelImg4}
-              alt=""
+              alt="family"
             />
           </div>
           <div className="swiper-slide">
             <Image
               className="slide-image"
               src={images.tunnelImg5}
-              alt=""
+              alt="family"
             />
           </div>
           <div className="swiper-slide">
             <Image
               className="slide-image"
               src={images.tunnelImg6}
-              alt=""
+              alt="family"
             />
           </div>
           <div className="swiper-slide">
             <Image
               className="slide-image"
               src={images.tunnelImg7}
-              alt=""
+              alt="family"
             />
           </div>
           <div className="swiper-slide">
             <Image
               className="slide-image"
               src={images.tunnelImg8}
-              alt=""
+              alt="family"
             />
           </div>
           <div className="swiper-slide">
             <Image
               className="slide-image"
               src={images.tunnelImg9}
-              alt=""
+              alt="family"
             />
           </div>
           <div className="swiper-slide">
             <Image
               className="slide-image"
               src={images.tunnelImg10}
-              alt=""
+              alt="family"
             />
           </div>
         </div>

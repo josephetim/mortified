@@ -13,6 +13,8 @@ import { Footer } from "../components/Footer";
 export default function About () {
     return (
         <div className="bg-stone-950 pt-6 ">
+                  <section data-page="2" className="hidden"></section>
+
             <div className="flex items-center justify-center">
             <NavBar />
             </div>
@@ -21,7 +23,7 @@ export default function About () {
                     <Image 
                         src={images.about}
                     className="object-contain w-full h-[631px] aspect-square max-md:mt-10"
-                        
+                        alt='about'
                     />
                 </div>
 

@@ -26,11 +26,13 @@ export function NavItem({ label, href, isActive, onClick }) {
 }
 
 export function NavBar() {
-  const [activeIndex, setActiveIndex] = React.useState(0); // Default to "Home"
+  const pageNumber = document.querySelector("section").dataset.page
+  const [activeIndex, setActiveIndex] = React.useState(+pageNumber); // Default to "Home"
 
   React.useEffect(() => {
     // Only run this code on the client
-    const pageNumber = localStorage.getItem("page");
+    
+    const pageNumber = document.querySelector("section").dataset.page
     if (pageNumber) {
       setActiveIndex(+pageNumber);
     }

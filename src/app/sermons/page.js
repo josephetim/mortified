@@ -17,6 +17,8 @@ export default function Page() {
     }
   return (
     <div className='bg-stone-950'>
+              <section data-page="3" className="hidden"></section>
+
         <div
             className=""
             style={{ backgroundImage: `url('/swordbg.png')`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}
