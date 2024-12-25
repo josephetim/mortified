@@ -26,15 +26,15 @@ export function NavItem({ label, href, isActive, onClick }) {
 }
 
 export function NavBar() {
-  const pageNumber = document.querySelector("section").dataset.page
-  const [activeIndex, setActiveIndex] = React.useState(+pageNumber); // Default to "Home"
+  const [activeIndex, setActiveIndex] = React.useState(1); // Default to 0 (Home)
 
   React.useEffect(() => {
-    // Only run this code on the client
-    
-    const pageNumber = document.querySelector("section").dataset.page
-    if (pageNumber) {
-      setActiveIndex(+pageNumber);
+    if (typeof document !== "undefined") {
+      // Only run this code on the client
+      const pageNumber = document.querySelector("section")?.dataset.page;
+      if (pageNumber) {
+        setActiveIndex(+pageNumber);
+      }
     }
   }, []); // Empty dependency array ensures this runs only once on mount
 
@@ -47,7 +47,10 @@ export function NavBar() {
   ];
 
   const handleClick = (index) => {
-    localStorage.setItem("page", index);
+    if (typeof window !== "undefined") {
+      // Ensure this is only called on the client
+      localStorage.setItem("page", index);
+    }
     setActiveIndex(index);
   };
 
