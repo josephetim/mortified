@@ -27,20 +27,20 @@ export const programsList = [
       title: "MCO",
       subtitle: "The Mortified Campus Outreach",
       iconSrc: icons.arr_dwn,
-      description: "Engineer Pastor Eric Gugua, the SETMAN over this commission labours vigourously in prayers and in much fastings to ensure that the lives of campus students are ablaze for God. He has a burning passion for students which led to the birth of the campuse outreach. ",
+      description: "The Campus Outreach Department is the heartbeat of Mortified's mission to spread the word of God to the next generation. With a focus on Nigerian campuses, this vibrant department is dedicated to inspiring students with the transformative power of the Gospel. Through strategic events, engaging programs, and one-on-one discipleship, we aim to nurture faith, instill values, and equip young people to live purposefully for Christ. Our vision is to see campuses across Nigeria become hubs of spiritual awakening, raising a generation of God-fearing leaders ready to make a positive impact in their communities and beyond. ",
     },
     {
       id: 5,
       title: "TRC",
       subtitle: "The Recalibrate Confrence",
       iconSrc: icons.arr_dwn,
-      description: "Reprehenderit minim enim occaecat ad tempor Lorem minim ad. Sit proident incididunt dolor est non ad cillum ea qui nisi exercitation magna incididunt. Cupidatat anim elit commodo quis commodo nostrud esse magna reprehenderit eiusmod culpa commodo. Aute est nisi anim qui est ea veniam ipsum in nulla cupidatat mollit quis do. Ea tempor cillum adipisicing eiusmod eu exercitation deserunt ipsum adipisicing aute proident nostrud veniam. Dolor eu incididunt et duis aliqua irure.Enim laboris elit id ut laborum deserunt. Enim occaecat fugiat incididunt deserunt nulla consectetur. Adipisicing non proident proident elit ullamco non incididunt laborum labore consectetur minim. Pariatur enim qui id ad aute.Adipisicing pariatur cillum consectetur amet incididunt. Deserunt id in proident nostrud reprehenderit officia nulla labore in exercitation laborum amet in voluptate. Deserunt nisi cupidatat in mollit occaecat dolor elit. Cupidatat ullamco deserunt aliqua esse id nisi quis labore laborum laboris. Exercitation voluptate do elit qui dolore minim laborum qui irure.",
+      description: "The Recalibrate Conference is Mortified's mid-year flagship event, designed to help individuals realign their lives with God's purpose and promises. This transformative gathering provides an opportunity to pause, reflect, and reassess personal goals and spiritual commitments in light of God's word. Through powerful teachings, worship, and practical sessions, Recalibrate equips participants to overcome distractions, renew their focus, and reignite their passion for walking in alignment with God's plan. It's a divine reset for a stronger finish to the year.",
     },
     {
       id: 6,
       title: "JS",
       subtitle: "Jump Start",
       iconSrc: icons.arr_dwn,
-      description: "Reprehenderit minim enim occaecat ad tempor Lorem minim ad. Sit proident incididunt dolor est non ad cillum ea qui nisi exercitation magna incididunt. Cupidatat anim elit commodo quis commodo nostrud esse magna reprehenderit eiusmod culpa commodo. Aute est nisi anim qui est ea veniam ipsum in nulla cupidatat mollit quis do. Ea tempor cillum adipisicing eiusmod eu exercitation deserunt ipsum adipisicing aute proident nostrud veniam. Dolor eu incididunt et duis aliqua irure.Enim laboris elit id ut laborum deserunt. Enim occaecat fugiat incididunt deserunt nulla consectetur. Adipisicing non proident proident elit ullamco non incididunt laborum labore consectetur minim. Pariatur enim qui id ad aute.Adipisicing pariatur cillum consectetur amet incididunt. Deserunt id in proident nostrud reprehenderit officia nulla labore in exercitation laborum amet in voluptate. Deserunt nisi cupidatat in mollit occaecat dolor elit. Cupidatat ullamco deserunt aliqua esse id nisi quis labore laborum laboris. Exercitation voluptate do elit qui dolore minim laborum qui irure.",
+      description: "Jumpstart is Mortified's inaugural program of the year, setting the tone for a purposeful and impactful journey ahead. Designed to provide direction and clarity, Jumpstart inspires participants to align their plans and priorities with God's word and vision for the year. Through impactful teachings, prayers, and declarations, this program empowers individuals to begin the year with renewed faith, focus, and a strong foundation in God's promises. Jumpstart is more than an event—it's a divine launchpad for a victorious year.",
     }
   ];
