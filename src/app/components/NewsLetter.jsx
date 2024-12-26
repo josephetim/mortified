@@ -16,7 +16,7 @@ export default function NewsletterSection() {
               loading="lazy"
               src={images.newsletterIllustration}
               alt="Newsletter subscription illustration"
-              className=" absolute h-[100%] right-0 top-0 max-w-full aspect-[1.19] w-[52%]"
+              className=" absolute w-[63%] h-[100%] right-0 object-cover grow  aspect-[1.6] max-md:max-w-full"
             />
             <Image
               loading="lazy"
