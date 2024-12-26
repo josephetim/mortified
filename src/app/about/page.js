@@ -14,12 +14,13 @@ export default function About () {
     return (
         <div className="bg-stone-950 pt-6 ">
                   <section data-page="2" className="hidden"></section>
-
-            <div className="flex items-center justify-center">
+                 
+                  
+            {/* <div className="flex items-center pt-8 justify-center">
             <NavBar />
-            </div>
+            </div> */}
             <div className="pl-[70px] pr-[87px]">
-                <div className=" pt-[49px]">   
+                <div className=" mt-[89px]">   
                     <Image 
                         src={images.about}
                     className="object-contain w-full h-[631px] aspect-square max-md:mt-10"

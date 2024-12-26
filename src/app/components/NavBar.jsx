@@ -55,7 +55,7 @@ export function NavBar() {
   };
 
   return (
-    <nav className="flex flex-wrap w-[520px] justify-around items-center py-2 text-base font-semibold rounded-xl border border-solid bg-neutral-950 border-neutral-800 text-zinc-100 max-md:max-w-full">
+    <nav className="flex mt-7 fixed flex-wrap z-50 w-[520px] justify-around items-center py-2 text-base font-semibold rounded-xl border border-solid bg-neutral-950 border-neutral-800 text-zinc-100 max-md:max-w-full">
       {navItems.map((item, index) => (
         <NavItem
           key={index}

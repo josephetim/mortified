@@ -23,13 +23,9 @@ export default function Page() {
             className=""
             style={{ backgroundImage: `url('/swordbg.png')`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}
         >
-            <div className="flex items-center justify-center pt-6">
-            <NavBar />
-            </div>
-            <div className='pl-[70px] pt-[100px] pb-[109px]'>
+            <div className='pl-[70px] pt-[150px] pb-[109px]'>
                 <div className='mb-[43px]'>
                 <p className=' mb-5  font-garamond font-semibold w-[522] text-[96px] leading-[1.1] text-[#FFFF] '>MORTIFIED<br/> SERMONS.</p>
-                {/* <p className=' mt-0 font-garamond font-normal text-[96px] text-[#FFFF]'>  SERMONS.</p> */}
                 <p className='font-kumbhSans text-[36px] font-normal text-[#8E8E8E] w-[522px]'>The sword of the Spirit with an electronic edge</p>
                
                 </div>

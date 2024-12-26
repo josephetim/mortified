@@ -25,12 +25,13 @@ export function LandingPage() {
   return (
     <div  className="bg-stone-950">
       <section data-page="1" className="hidden"></section>
-      <div className="flex overflow-hidden items-center flex-col   pt-5 bg-stone-950 max-md:pt-24">
-      
-      <div className="flex flex-col items-center pl-[70px] pr-[90px]">
+      <div className="flex overflow-hidden items-center flex-col    bg-stone-950 max-md:pt-24">
+  
+      <div className="flex  flex-col items-center pl-[70px] pr-[90px]">
         <div  style={{ backgroundImage: `url('/herobg.png')`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}  className="relative flex flex-col items-center">
-        <NavBar />
-        <div className="mt-10 text-6xl font-bold text-center font-garamond text-white leading-[90px] w-[929px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[62px]">
+        {/* <NavBar /> */}
+
+        <div  className=" mt-[20%] text-6xl font-bold text-center font-garamond text-white leading-[90px] w-[929px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[62px]">
         THE MORTIFIED CHRISTIAN GROWTH AND DISCIPLESHIP PLATFORM
       </div>
       

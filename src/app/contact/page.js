@@ -14,21 +14,15 @@ export default function Contact() {
         { src: icons.youtube, alt: "Social media icon 4" },
       ];
   return (
-    <div className='bg-[#0E0E0E]'>
+    <div className='bg-[#0E0E0E] '>
        <div className="flex items-center justify-center pt-6">
        <section data-page="4" className="hidden"></section>
 
-            <NavBar />
             </div>
         <div className='flex items-center justify-center'>
-            <p className='font-garamond text-white text-[96px] '>We want to hear from you</p>
+            <p className='font-garamond text-white text-[96px] mt-16 '>We want to hear from you</p>
         </div>
         <div>
-            {/* <Image 
-                src= {images.family}
-                alt="family"
-
-            /> */}
             <Panorama />
         </div>
         <div className='flex flex-col items-center pt-4 '>
