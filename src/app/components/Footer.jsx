@@ -9,10 +9,11 @@ const companyLinks =[
 ]
 
 const socialIcons = [
-  { src: icons.twitter, alt: "Social media icon 1" },
-  { src: icons.facebook, alt: "Social media icon 2" },
-  { src: icons.instagram, alt: "Social media icon 3" },
-  { src: icons.youtube, alt: "Social media icon 4" },
+  { src: icons.twitter, alt: "Social media icon 1", href:"https://x.com/TheMortifiedOne?t=21h4wUeo4iIk8Uj7-gORJw&s=09" },
+  { src: icons.facebook, alt: "Social media icon 2", href:"https://www.facebook.com/share/1EYEMPsaQh/" },
+  { src: icons.instagram, alt: "Social media icon 3", href: "https://www.instagram.com/themortifiedone?igsh=d2h2b2xuZTRzcmI0" },
+
+  
 ];
 
 export const Footer = () => {
