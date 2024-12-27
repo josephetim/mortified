@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         <div className="max-sm:hidden flex justify-center ">
           <NavBar />
         </div>
-        <div className="hidden max-sm:flex ">
+        <div className="hidden max-sm:flex">
           <NavBar />
         </div>
         <div className="z-0 ">
