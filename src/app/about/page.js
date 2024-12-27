@@ -133,7 +133,7 @@ export default function About () {
             </div>
           </div>
         </div>
-        <div className="flex flex-row flex-wrap gap-x-14 gap-y-[100px] justify-between items-center pt-[130px]">
+        <div className="flex flex-row max-sm:gap-x-0 max-sm:justify-center max-sm:w-[-webkit-fill-available] w-[1100px] max-sm:items-center flex-wrap max-sm:flex-wrap gap-x-14 gap-y-[100px] justify-between items-center pt-[130px]">
             {pastorate.map((pastor, index) => <PastorateCard key={index} icon={pastor.icon} name={pastor.name} title={pastor.title} />)}
         </div>
        
@@ -158,7 +158,7 @@ export default function About () {
               <span className="font-semibold">Mortified{" "}</span>
                 
               <span className="text-stone-300">
-              non-denominational, Christian Discipleship and 
+              a non-denominational, Christian Discipleship and 
               growth platform that fosters the believer’s journey. We hold fast 
               the tenets of scripture with relation to Christian doctrine and the 
               normal Christian life. We are not bound by geographical factors 
