@@ -11,8 +11,12 @@ import instagram from './instagram.png';
 import copyright from './copyright.png';
 import download from './download.png';
 import arr_dwn from './accordionArrow.png'
-import logo from './logo.png'
-import svgLogo from './logo.svg'
+import logo from './logo.png';
+import svgLogo from './logo.svg';
+import facebookLight from './facebookLight.png';
+import instagramLight from './instagramLight.png';
+import twitterLight from './twitterLight.png';
+import gmail from './gmail.png';
 
 export const icons = {
     cubes,
@@ -29,6 +33,10 @@ export const icons = {
     download,
     arr_dwn,
     logo,
-    svgLogo
+    svgLogo,
+    facebookLight,
+    instagramLight,
+    twitterLight,
+    gmail
  
 }

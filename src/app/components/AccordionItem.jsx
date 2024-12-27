@@ -42,8 +42,8 @@ function AccordionItem({ title, subtitle, description, iconSrc, isOpen, onClick,
         className="flex flex-row justify-between items-center px-4 py-8 cursor-pointer"
         onClick={onClick}
       >
-        <div className="flex flex-col">
-          <div className="text-3xl leading-none mb-[12px] text-[32px] font-normal font- font-kumbhSans">
+        <div className="flex flex-col max-sm:w-[80%]">
+          <div className="text-3xl leading-none mb-[12px] text-[32px] font-normal  font-kumbhSans">
             {title}
           </div>
 

@@ -31,7 +31,7 @@ export const Footer = () => {
             </div>
             <div className="mt-6 text-stone-500 font-kumbhSans">The Mortified One</div>
             <div className="flex flex-wrap gap-10 justify-between items-center mt-20 max-w-full w-[990px] max-md:mt-10">
-          <div className="flex gap-1 items-center self-stretch my-auto text-xl min-w-[240px] mt-[62px] text-stone-500">
+          <div className="max-sm:hidden flex gap-1 items-center self-stretch my-auto text-xl min-w-[240px] mt-[62px] text-stone-500">
             <div className="self-stretch my-auto w-[100px] font-normal font-kumbhSans">Copyright</div>
             <Image
               loading="lazy"
@@ -60,7 +60,7 @@ export const Footer = () => {
             ))}
           </div>
             </div>
-            <div className="flex flex-col whitespace-nowrap w-[196px]">
+            <div className="max-sm:hidden flex flex-col whitespace-nowrap w-[196px]">
               <div className="font-semibold text-white font-kumbhSans">Website</div>
               <div className="mt-6 max-w-full font-medium font-kumbhSans text-stone-500 w-[196px]">
                 Themortifedone.org
@@ -70,6 +70,18 @@ export const Footer = () => {
         </div>
        
       </div>
+      <div className="md:hidden lg:hidden max-lg:hidden max-md:hidden max-sm:flex max-sm:w-full flex gap-1 items-center self-stretch my-auto text-xl min-w-[240px] mt-[62px] text-stone-500">
+            <div className="self-stretch my-auto w-[100px]  font-normal font-kumbhSans">Copyright</div>
+            <Image
+              loading="lazy"
+              src={icons.copyright}
+              alt="Copyright symbol"
+              className="object-contain shrink-0 self-stretch my-auto aspect-square w-[25px]"
+            />
+            <div className="self-stretch font-normal  w-full font-kumbhSans">
+              The Mortified One 2024
+            </div>
+          </div>
     </div>
   );
 };

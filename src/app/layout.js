@@ -23,7 +23,10 @@ export default function RootLayout({ children }) {
       <body
         className={`bg-stone-950 ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="flex justify-center ">
+        <div className="max-sm:hidden flex justify-center ">
+          <NavBar />
+        </div>
+        <div className="hidden max-sm:flex ">
           <NavBar />
         </div>
         <div className="z-0 ">

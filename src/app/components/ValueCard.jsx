@@ -50,9 +50,9 @@ const values = [
 export function ValueCard({ icon, title, description }) {
   return (
     <div className="flex flex-col items-start pt-[32px] pr-[65px] pb-[32px] pl-6 rounded-lg border border-solid bg-neutral-900 border-neutral-800 max-w-[359px] max-md:px-5 max-md:max-w-full">
-      <div className="flex flex-col">
-        <div className="flex overflow-hidden flex-col self-start">
-          <div className="flex overflow-hidden flex-col justify-between px-4 py-5 rounded-xl bg-zinc-800 w-[60px]">
+      <div className="flex flex-col max-sm:items-center">
+        <div className="flex overflow-hidden flex-col max-sm:items-center max-sm:self-center self-start">
+          <div className="flex overflow-hidden flex-col max-sm:self-center justify-between px-4 py-5 rounded-xl bg-zinc-800 w-[60px]">
             <Image
               loading="lazy"
               src={icon}
@@ -60,11 +60,11 @@ export function ValueCard({ icon, title, description }) {
               className="object-contain w-full h-full aspect-[1.2]"
             />
           </div>
-          <div className=" font-kumbhSans text-[24px] font-normal mt-6 text-2xl text-white">
+          <div className=" font-kumbhSans text-[24px] max-sm:text-center font-normal mt-6 text-2xl text-white">
             {title}
           </div>
         </div>
-        <div className="font-kumbhSans text-[15px] font-normal mt-3 text-base leading-6 text-[#BDBDBD]">
+        <div className="font-kumbhSans text-[15px] max-sm:text-center font-normal mt-3 text-base leading-6 text-[#BDBDBD]">
           {description}
         </div>
       </div>

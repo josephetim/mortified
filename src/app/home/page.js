@@ -27,15 +27,15 @@ export function LandingPage() {
       <section data-page="1" className="hidden"></section>
       <div className="flex overflow-hidden items-center flex-col    bg-stone-950 max-md:pt-24">
   
-      <div className="flex  flex-col items-center pl-[70px] pr-[90px]">
-        <div  style={{ backgroundImage: `url('/herobg.png')`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}  className="relative flex flex-col items-center">
+      <div className="flex  flex-col items-center pl-[70px] pr-[90px] max-sm:px-[30px] max-sm:w-[-webkit-fill-available]">
+        <div   style={{ backgroundImage: `url('/herobg.png')`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}  className="relative flex flex-col items-center sm:">
         {/* <NavBar /> */}
 
-        <div  className=" mt-[20%] text-6xl font-bold text-center font-garamond text-white leading-[90px] w-[929px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[62px]">
+        <div  className=" mt-[20%] text-6xl font-bold text-center font-garamond text-white leading-[90px] max-sm:w-[auto] md:w-[929px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[62px]">
         THE MORTIFIED CHRISTIAN GROWTH AND DISCIPLESHIP PLATFORM
       </div>
       
-      <div className="mt-8 text-xl text-center font-kumbhSans text-stone-300 w-[771px] max-md:max-w-full">
+      <div className="mt-8 text-xl text-center font-kumbhSans text-stone-300 max-sm:w-[auto] w-[771px] max-md:max-w-full">
         Welcome to the Mortified Christian Growth Platform. This is the family
         of God and the body of Christ. We are glad to have you in our community
         where we uphold the teachings of the basic Christian faith. Feel free to
@@ -51,37 +51,37 @@ export function LandingPage() {
       
       <div className="flex overflow-hidden flex-col justify-center items-center self-stretch py-32 mt-20 w-full bg-stone-950 max-md:px-5 max-md:py-24 max-md:mt-10 max-md:max-w-full">
         <div className="flex flex-wrap gap-10 w-full items-center justify-between -mb-6 max-md:mb-2.5 max-md:max-w-full">
-          <div className="flex flex-col self-stretch  my-auto min-w-[240px] w-[426px] max-md:max-w-full">
+          <div className="flex flex-col self-stretch  my-auto max-sm:items-center min-w-[240px] w-[426px] max-md:max-w-full">
             <div className="flex flex-col w-full font-semibold max-md:max-w-full">
-              <div className="font-kumbhSans gap-2.5 self-start px-4 py-2.5 text-[15px] font-normal  text-white rounded-3xl bg-zinc-800">
+              <div className="font-kumbhSans gap-2.5 max-sm:self-center self-start px-4 py-2.5 text-[15px] font-normal  text-white rounded-3xl bg-zinc-800">
                 ABOUT US
               </div>
-              <div className=" font-kumbhSans text-[36px] font-semibold mt-6 text-4xl text-neutral-200 max-md:max-w-full">
+              <div className=" font-kumbhSans text-[36px] font-semibold mt-6 text-4xl text-neutral-200 max-md:max-w-full max-sm:text-center">
                 Who we are, what we do and what we stand for.
               </div>
             </div>
-            <div className="flex flex-col items-start mt-7 w-full max-md:max-w-full">
-              <div className="flex max-w-full rounded-lg border border-solid bg-neutral-900 border-neutral-800 min-h-[86px] w-[228px]" />
-              <div className="flex mt-6 max-w-full rounded-lg border border-solid bg-neutral-900 border-neutral-800 min-h-[86px] w-[452px]" />
+            <div className="flex flex-col items-start max-sm:items-center mt-7 w-full max-md:max-w-full">
+              <div className="flex max-w-full rounded-lg border border-solid bg-neutral-900 border-neutral-800 min-h-[86px] w-[228px] max-sm:w-[228px] max-sm:min-h-[32px]" />
+              <div className="flex mt-6 max-w-full rounded-lg border border-solid bg-neutral-900 border-neutral-800 min-h-[86px] w-[452px] max-sm:min-w-[368px] max-sm:min-h-[48px]" />
             </div>
           </div>
           <div className="flex flex-col self-stretch my-auto text-xl leading-8 min-w-[240px] w-[603px] max-md:max-w-full">
-            <div className="font-kumbhSans text-white max-md:max-w-full">
-              <span className="font-semibold">Mortified{" "}</span>
+            <div className="font-kumbhSans max-sm:text-center text-white max-md:max-w-full">
+              <span className="font-semibold ">Mortified{" "}</span>
                 
               <span className="text-[#BDBDBD]">
-              non-denominational, Christian Discipleship and 
+              a non-denominational, Christian Discipleship and 
               growth platform that fosters the believer’s journey. We hold fast 
               the tenets of scripture with relation to Christian doctrine and the 
               normal Christian life. We are not bound by geographical factors 
               thereby ensuring that the gospel of the kingdom reaches out to 
               the believer in every part of the world.
               </span>
-              <span className="text-[#BDBDBD]">
+              <span className="text-[#BDBDBD] max-sm:text-center">
                 the believer in every part of the world.
               </span>
             </div>
-            <div className="font-kumbhSans mt-6 text-[#BDBDBD] max-md:max-w-full">
+            <div className="font-kumbhSans mt-6 max-sm:text-center text-[#BDBDBD] max-md:max-w-full">
               We undertake trainings for our members who are interested 
              
               having help and guidance with their spiritual walk, through our
@@ -113,17 +113,17 @@ export function LandingPage() {
         <div className="flex gap-5 max-md:flex-col">
           <div className="flex flex-col w-[38%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col w-full max-md:mt-10 max-md:max-w-full">
-              <div className="font-kumbhSans gap-2.5 self-start px-4 py-2.5 text-base text-white rounded-3xl bg-zinc-800">
+              <div className="font-kumbhSans gap-2.5 max-sm:self-center self-start px-4 py-2.5 text-base text-white rounded-3xl bg-zinc-800">
                 OUR PROGRAMS
               </div>
-              <div className="font-kumbhSans font-semibold mt-7 text-4xl text-neutral-200 max-md:max-w-full">
+              <div className="font-kumbhSans font-semibold mt-7 max-sm:text-center text-4xl text-neutral-200 max-md:max-w-full">
                 Pathways to <br />
                 Spiritual Growth
               </div>
             </div>
           </div>
           <div className="flex flex-col ml-5 w-[62%] max-md:ml-0 max-md:w-full">
-            <div className="font-kumbhSans text-xl leading-8 text-[#BDBDBD] max-md:mt-10 max-md:max-w-full">
+            <div className="font-kumbhSans text-xl max-sm:text-center leading-8 text-[#BDBDBD] max-md:mt-10 max-md:max-w-full">
               Designed to nurture spiritual growth and deepen your walk with
               Christ, our
               programs offer a range of opportunities to learn, serve, and
@@ -161,7 +161,7 @@ export function LandingPage() {
       </div>
     </div>
   </div>
-    <div className="mt-[159px]">
+    <div className="mt-[159px] max-sm:mt-0">
       <Footer />
     </div>
     </div>
