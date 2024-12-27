@@ -63,7 +63,7 @@ export const administration = [
     {
       id: 5,
       title: "PRAYER DEPARTMENT",
-      subtitle: "Responsible for all intercessory activities for and with the member of Mortified",
+      subtitle: "Responsible for all intercessory activities for and with the members of Mortified",
       iconSrc: icons.arr_dwn,
       description: (
         <div className="flex flex-col gap-[12px]">
