@@ -28,8 +28,8 @@ export function LandingPage() {
       <section data-page="1" className="hidden"></section>
       <div className="flex overflow-hidden items-center flex-col    bg-stone-950 max-md:pt-24">
   
-      <div className="flex  flex-col items-center pl-[70px] pr-[90px] max-sm:px-[10px] max-sm:w-[-webkit-fill-available]">
-        <div   style={{ backgroundImage: `url('/herobg.png')`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}  className="relative flex flex-col items-center sm:">
+      <div className="flex  flex-col items-center pl-[70px] pr-[90px] max-sm:px-[16px] max-sm:w-[-webkit-fill-available]">
+        <div   style={{ backgroundImage: `url('/herobg.png')`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}  className="relative flex flex-col items-center ">
         {/* <NavBar /> */}
 
         <div  className=" mt-[20%] text-6xl font-bold text-center font-garamond text-white leading-[90px] max-sm:w-[auto] md:w-[929px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[62px]">
@@ -95,7 +95,7 @@ export function LandingPage() {
         </div>
       </div>
       
-      <div className="flex overflow-hidden flex-col self-stretch max-sm:py-[99px]  py-20 w-full bg-stone-950 max-md:px-5 max-md:max-w-full">
+      <div className="flex overflow-hidden flex-col self-stretch max-sm:py-[99px] max-sm:px-0  py-20 w-full bg-stone-950 max-md:px-5 max-md:max-w-full">
         <div className="flex flex-col justify-center self-center max-w-full font-semibold w-[728px]">
           <div className="flex flex-col justify-center w-full max-md:max-w-full">
             <div className="font-kumbhSans gap-2.5 self-center px-4 py-2.5 text-[15px] font-normal text-white rounded-3xl bg-zinc-800">
@@ -109,7 +109,7 @@ export function LandingPage() {
         </div>
         <ValueCards />
       </div>
-      <div className="flex overflow-hidden flex-col max-sm:py-[0px]  py-16 bg-stone-950 max-md:px-5">
+      <div className="flex overflow-hidden flex-col max-sm:py-[0px] max-sm:px-0  py-16 bg-stone-950 max-md:px-5">
       <div className="max-md:max-w-full">
         <div className="flex gap-5 max-sm:gap-[32px] max-md:flex-col">
           <div className="flex flex-col w-[38%] max-md:ml-0 max-md:w-full">

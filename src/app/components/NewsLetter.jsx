@@ -73,7 +73,7 @@ function NewsletterForm() {
           type="email"
           id="emailInput"
           required
-          className="font-poppins gap-2.5 self-stretch py-4 pr-60 pl-4  max-sm:w-full my-auto rounded-lg border border-solid bg-neutral-200 border-zinc-500 min-w-[240px] text-zinc-500  max-md:max-w-full"
+          className="font-poppins gap-2.5 self-stretch py-4 pr-60 max-sm:pr-0 pl-4  max-sm:w-full my-auto rounded-lg border border-solid bg-neutral-200 border-zinc-500 min-w-[240px] text-zinc-500  max-md:max-w-full"
           placeholder="Enter your email address"
           aria-label="Enter your email address"
         />

@@ -71,14 +71,14 @@ export const Footer = () => {
        
       </div>
       <div className="md:hidden lg:hidden max-lg:hidden max-md:hidden max-sm:flex max-sm:w-full flex gap-1 items-center self-stretch my-auto text-xl min-w-[240px] mt-[62px] text-stone-500">
-            <div className="self-stretch my-auto w-[100px]  font-normal font-kumbhSans">Copyright</div>
+            <div className="self-stretch my-auto w-[100px]  font-normal max-sm:text-[14px] font-kumbhSans">Copyright</div>
             <Image
               loading="lazy"
               src={icons.copyright}
               alt="Copyright symbol"
               className="object-contain shrink-0 self-stretch my-auto aspect-square w-[25px]"
             />
-            <div className="self-stretch font-normal  w-full font-kumbhSans">
+            <div className="self-stretch max-sm:text-[14px] font-normal  w-full font-kumbhSans">
               The Mortified One 2024
             </div>
           </div>
