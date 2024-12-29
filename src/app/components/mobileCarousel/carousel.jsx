@@ -4,12 +4,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import { EffectCoverflow, Pagination } from "swiper/modules";
-import { images } from "../assets/images/images";
+import { images } from "../../assets/images/images";
 import Image from "next/image";
 
 const Carousel = () => {
   return (
-    <div style={{ width: "100%", maxWidth: "800px", margin: "auto" }}>
+    <div style={{ width: "100%", maxWidth: "100%", margin: "auto" }}>
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -17,33 +17,36 @@ const Carousel = () => {
         slidesPerView={3}
         loop={true}
         coverflowEffect={{
-          rotate: 50,
+          rotate: 0,
           stretch: 0,
-          depth: 50,
+          depth: 200,
           modifier: 1,
-          slideShadows: true,
+          slideShadows: false,
         }}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
       >
-        {[{src:images.carouselImg1},{src:images.carouselImg2},{src:images.carouselImg1}, {src:images.carouselImg2}].map((card, index) => (
+        {[{src:images.mobileCarousel1},{src:images.mobileCarousel2},{src:images.mobileCarousel1}, {src:images.mobileCarousel2}].map((card, index) => (
           <SwiperSlide
             key={index}
             style={{
               display: "flex",
+              display: "flex",
+             
+              width:"300px",
               alignItems: "center",
               justifyContent: "center",
-              height: "300px",
               background: "transparent",
-              borderRadius: "10px",
+              borderRadius: "15.7px",
               fontSize: "20px",
               fontWeight: "bold",
+             
             }}
           >
             <Image 
               src={card.src}
               alt={card.src}
-              className="w-[230px] h-[401px] aspect-square object-contain"
+              className=" aspect-square object-contain min-h-[401px] min-w-[230px] "
               
             />
           </SwiperSlide>

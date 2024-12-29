@@ -60,11 +60,11 @@ export function ValueCard({ icon, title, description }) {
               className="object-contain w-full h-full aspect-[1.2]"
             />
           </div>
-          <div className=" font-kumbhSans text-[24px] max-sm:text-center font-normal mt-6 text-2xl text-white">
+          <div className=" font-kumbhSans text-[24px] max-sm:mt-[16px] max-sm:text-center font-normal mt-6 text-2xl text-white">
             {title}
           </div>
         </div>
-        <div className="font-kumbhSans text-[15px] max-sm:text-center font-normal mt-3 text-base leading-6 text-[#BDBDBD]">
+        <div className="font-kumbhSans text-[15px] max-sm:mt-[14px] max-sm:text-center font-normal mt-3 text-base leading-6 text-[#BDBDBD]">
           {description}
         </div>
       </div>
@@ -74,7 +74,7 @@ export function ValueCard({ icon, title, description }) {
 
 export function ValueCards () {
   return (
-    <div className="flex-row justify-center flex flex-wrap gap-4 items-start mt-24 max-md:mt-10 max-md:max-w-full">
+    <div className="flex-row justify-center flex flex-wrap gap-4 max-sm:gap-[32px] items-start mt-24 max-md:mt-10 max-md:max-w-full">
           {values.map((value, index) => (
             <ValueCard key={index}{...value} />
           ))}

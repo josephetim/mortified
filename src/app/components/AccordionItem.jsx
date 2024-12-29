@@ -43,12 +43,12 @@ function AccordionItem({ title, subtitle, description, iconSrc, isOpen, onClick,
         onClick={onClick}
       >
         <div className="flex flex-col max-sm:w-[80%]">
-          <div className="text-3xl leading-none mb-[12px] text-[32px] font-normal  font-kumbhSans">
+          <div className="text-3xl max-sm:text-[20px] leading-none mb-[12px] text-[32px] font-normal  font-kumbhSans">
             {title}
           </div>
 
           {subtitle && (
-            <div className="mt-1 text-base leading-6 font-normal text-[16px] font-kumbhSans">
+            <div className="mt-1 max-sm:text-[12px] text-base leading-6 font-normal text-[16px] font-kumbhSans">
               {subtitle}
             </div>
           )}

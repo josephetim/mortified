@@ -25,7 +25,9 @@ import tunnelImg10 from './tunnelImg10.png';
 import linesBg from './linesbg.png';
 // import heroBg from './herobg.png'
 import aboutSm from './aboutSm.svg';
-import aboutSmpng from './aboutSm.png'
+import aboutSmpng from './aboutSm.png';
+import mobileCarousel1 from './mobileCarousel1.png';
+import mobileCarousel2 from './mobileCarousel2.png';
 
 
 
@@ -59,7 +61,9 @@ export const images = {
     tunnelImg10,
     linesBg,
     aboutSm,
-    aboutSmpng
+    aboutSmpng,
+    mobileCarousel1,
+    mobileCarousel2
     
     
 
