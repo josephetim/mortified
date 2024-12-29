@@ -82,7 +82,7 @@ function AccordionItem({ title, subtitle, description, iconSrc, isOpen, onClick,
 
       {/* Accordion Content */}
      {description && (<div
-        className={`overflow-scroll transition-all duration-500 ease-in-out  ${
+        className={`max-sm:overflow-scroll overflow-hidden transition-all duration-500 ease-in-out  ${
           isOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
         }`}
       >
