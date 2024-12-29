@@ -28,7 +28,7 @@ export function LandingPage() {
       <section data-page="1" className="hidden"></section>
       <div className="flex overflow-hidden items-center flex-col    bg-stone-950 max-md:pt-24">
   
-      <div className="flex  flex-col items-center pl-[70px] pr-[90px] max-sm:px-[21px] max-sm:w-[-webkit-fill-available]">
+      <div className="flex  flex-col items-center pl-[70px] pr-[90px] max-sm:px-[10px] max-sm:w-[-webkit-fill-available]">
         <div   style={{ backgroundImage: `url('/herobg.png')`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}  className="relative flex flex-col items-center sm:">
         {/* <NavBar /> */}
 
@@ -88,7 +88,7 @@ export function LandingPage() {
               having help and guidance with their spiritual walk, through our
           
               various programs, targeted at achieving growth in the lives of
-              our trainee members. Refer to our programs page to find an <br />
+              our trainee members. Refer to our programs page to find an 
               outline of our programs
             </div>
           </div>
