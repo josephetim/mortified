@@ -147,7 +147,7 @@ export function LandingPage() {
               <div className="font-kumbhSans gap-2.5 self-center px-4 py-2.5 text-[15px] font-normal text-white rounded-3xl bg-zinc-800">
                 PROOF OF MINISTRY
               </div>
-              <div className=" max-sm:mt-[24px] font-kumbhSans font-normal text-[36px] mt-6 text-4xl text-center text-neutral-200 max-md:max-w-full">
+              <div className=" max-sm:mt-[24px] font-kumbhSans max-sm:text-[24px] font-normal text-[36px] mt-6 text-4xl text-center text-neutral-200 max-md:max-w-full">
                 Stories of Faith, Growth and Transformation
               </div>
           </div>
