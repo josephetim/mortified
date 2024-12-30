@@ -61,7 +61,7 @@ export default function Page() {
            
             <div className="font-kumbhSans max-sm:text-center mt-6 text-stone-300 max-md:max-w-full">
             Dive into a treasure trove of wisdom and spiritual growth with
-            sermons from past Mortified editions. Each message is crafted
+            sermons from Mortified. Each message is crafted
             to inspire, challenge, and guide you on your journey of faith.
             Download, listen, and let these teachings transform your walk
             with God.
