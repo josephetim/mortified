@@ -91,7 +91,7 @@ export function NavBar() {
 
       {/* Sidebar */}
       <div
-        className={`fixed z-50 top-0 right-0 h-full w-64 bg-cyan-950 text-white transform transition-transform ${
+        className={`fixed z-50 top-0 right-0 h-full w-64 bg-[#181818] text-white transform transition-transform ${
           isSidebarOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
