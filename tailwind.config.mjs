@@ -13,6 +13,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage:{
+        'sword': "url('/swordbg.png')",
+      },
       fontFamily: {
         kumbhSans: ['Kumbh Sans', 'sans-serif'], // Define Raleway
         poppins: ['Poppins', 'serif'], // Define Marcellus,

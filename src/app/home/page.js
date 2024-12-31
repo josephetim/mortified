@@ -44,9 +44,14 @@ export function LandingPage() {
         our community.
       </div>
       
-      <button className="  font-poppins gap-2.5  p-4 max-sm:mt-[32px] mt-20 text-xl bg-white rounded-lg text-stone-950 max-md:mt-10">
+      <a
+      href="tg://resolve?domain=TheMortified"
+      rel="noopener noreferrer"
+      onclick="window.location.href='https://t.me/TheMortified'"
+      target="_blank"
+      className="  font-poppins gap-2.5  p-4 max-sm:mt-[32px] mt-20 text-xl bg-white rounded-lg text-stone-950 max-md:mt-10">
         Join our community
-      </button>
+      </a>
         </div>
       
       

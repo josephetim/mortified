@@ -61,8 +61,8 @@ const Pill = ({ text, isActive, onClick }) => {
   return (
     <div
       onClick={onClick}
-      className={`flex text-[12px] items-center px-4 py-1 border-[1px] border-[#333] text-white bg-[#202020] rounded-[24px] text-sm cursor-pointer ${
-        isActive ? "font-bold" : "font-normal"
+      className={`flex text-[12px] items-center px-4 py-1  text-white bg-[#202020] rounded-[24px] text-sm cursor-pointer ${
+        isActive ? "font-bold border-[1px] border-[#333]" : "font-normal border-[transparent]"
       }`}
     >
       {text}

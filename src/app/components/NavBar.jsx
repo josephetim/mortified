@@ -58,7 +58,9 @@ export function NavBar() {
     if (typeof window !== "undefined") {
       localStorage.setItem("page", index);
     }
+    console.log()
     setActiveIndex(index);
+    setIsSidebarOpen(false);
   };
 
   return (
@@ -107,8 +109,8 @@ export function NavBar() {
             <li key={index}>
               <Link
                 href={item.href}
-                onClick={closeSidebar}
-                className="hover:text-gray-300"
+                onClick={() => handleClick(index)}
+                className={`font-kumbhSans hover:text-gray-300 ${index === activeIndex ? "text-yellow-500" : "text-zinc-100"}`}
               >
                 {item.label}
               </Link>

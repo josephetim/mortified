@@ -21,10 +21,10 @@ export default function Page() {
               <section data-page="3" className="hidden"></section>
 <div className='max-sm:px-[16px]'>
 <div
-            className=""
-            style={{ backgroundImage: `url('/swordbg.png')`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}
+            className="bg-sword max-sm:bg-none"
+            style={{ backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}
         >
-            <div className='pl-[70px] max-sm:pt-[22px] pt-[150px] pb-[109px] max-sm:pb-0 max-sm:pl-0 '>
+            <div className=' pl-[70px] max-sm:pt-[22px] pt-[150px] pb-[109px] max-sm:pb-0 max-sm:pl-0 '>
                 <div className='mb-[43px] max-sm:text-center'>
                 <p className=' mb-5  font-garamond font-semibold max-sm:w-full  w-[522px] max-sm:text-[40px] text-[96px] leading-[1.1] text-[#FFFF] '>MORTIFIED<br/> SERMONS.</p>
                 
