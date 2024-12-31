@@ -28,9 +28,9 @@ export default function Contact() {
         <div >
             <Panorama />
         </div>
-        <div className='flex flex-col items-center pt-4 max-sm:px-[31px] '>
-            <p className='font-kumbhSans text-[#F2F2F2] font-normal text-[20px]'><span className='font-semibold'>Mortified</span> is a Family.<br /></p>
-            <p className='font-kumbhSans  text-[#F2F2F2] font-normal text-[20px] max-sm:text-center max-sm:w-full w-[911px]'>  We believe in connection, growth, and walking together on this journey of faith. Whether you have questions, need counsel, or simply wish to share your story, we’re here to listen and guide. Feel free to reach out to us via any of the channels below. Our team is ready to assist you with inquiries, prayer requests, or guidance on how to participate in Mortified events and departments. We’re more than an organization; we’re a family, united in purpose and love. Let’s stay connected as we advance God’s kingdom together.</p>
+        <div className='flex flex-col max-sm:text-[16px] items-center pt-4 max-sm:px-[16px] '>
+            <p className='font-kumbhSans text-[#F2F2F2] font-normal max-sm:text-[16px] text-[20px]'><span className='font-semibold'>Mortified</span> is a Family.<br /></p>
+            <p className='font-kumbhSans  text-[#F2F2F2] font-normal max-sm:text-[16px] text-[20px] max-sm:text-center max-sm:w-full w-[911px]'>  We believe in connection, growth, and walking together on this journey of faith. Whether you have questions, need counsel, or simply wish to share your story, we’re here to listen and guide. Feel free to reach out to us via any of the channels below. Our team is ready to assist you with inquiries, prayer requests, or guidance on how to participate in Mortified events and departments. We’re more than an organization; we’re a family, united in purpose and love. Let’s stay connected as we advance God’s kingdom together.</p>
             <div className='flex flex-row gap-8 items-center pt-5 pb-7 max-sm:mt-[48px]'>
             {socialIcons.map((icon, index) => <SocialIcon  key={index} {...icon} />)}
             </div>

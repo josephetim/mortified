@@ -75,7 +75,7 @@ export default function SermonContainer() {
 
   return (
     <div>
-      <div className="flex flex-row gap-[16px] flex-wrap">
+      <div className="flex font-kumbhSans flex-row gap-[16px] flex-wrap">
         {sermonTopics.map((sermonTopic, index) => (
           <Pill
             key={index}
