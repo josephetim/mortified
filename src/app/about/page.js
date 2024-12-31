@@ -12,26 +12,26 @@ import { Footer } from "../components/Footer";
 
 export default function About () {
     return (
-        <div className="bg-stone-950 pt-6 ">
+        <div className="bg-stone-950 maxsm: pt-0 pt-6 ">
                   <section data-page="2" className="hidden"></section>
                  
                   
             {/* <div className="flex items-center pt-8 justify-center">
             <NavBar />
             </div> */}
-            <div className="pl-[70px] pr-[87px] max-sm:px-[16px] max-sm:pt-6">
+            <div className="pl-[70px] pr-[87px] max-sm:px-[16px] max-sm:pt">
                 <div className=" max-sm:hidden mt-[89px]">   
                     <Image 
                         src={images.about}
-                    className="object-contain w-full h-[631px] aspect-square max-md:mt-10"
+                    className="object-contain w-full h-[631px] aspect-square  max-md:mt-10"
                         alt='about'
                     />
                 </div>
-                <div className="md:hidden lg:hidden  max-sm:mt-12 ">
+                <div className="md:hidden lg:hidden  max-sm:mt-0 ">
                     <Image 
                     alt="image"
                       src={images.aboutSmpng}
-                      className="object-contain  aspect-square max-md:mt-10"
+                      className="object-contain  aspect-square max-sm:mt-0 max-md:mt-10"
 
                     />
                     <div className="flex flex-col gap-4">

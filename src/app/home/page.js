@@ -26,7 +26,7 @@ export function LandingPage() {
   return (
     <div  className="bg-stone-950">
       <section data-page="1" className="hidden"></section>
-      <div className="flex overflow-hidden items-center flex-col    bg-stone-950 max-md:pt-24">
+      <div className="flex overflow-hidden items-center flex-col    bg-stone-950 max-sm:pt-0 max-md:pt-24">
   
       <div className="flex  flex-col items-center pl-[70px] pr-[90px] max-sm:px-[16px] max-sm:w-[-webkit-fill-available]">
         <div   style={{ backgroundImage: `url('/herobg.png')`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}  className="relative flex flex-col items-center ">

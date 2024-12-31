@@ -23,7 +23,7 @@ export default function Contact() {
 
             </div>
         <div className='flex items-center justify-center'>
-            <p className='font-garamond text-white text-[96px] max-sm:text-center max-sm:text-[56px] mt-16 '>We want to hear from you</p>
+            <p className='font-garamond text-white text-[96px] max-sm:text-center max-sm:text-[56px] max-sm:mt-0 mt-16 '>We want to hear from you</p>
         </div>
         <div >
             <Panorama />
