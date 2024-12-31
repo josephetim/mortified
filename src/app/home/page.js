@@ -61,9 +61,10 @@ export function LandingPage() {
                 Who we are, what we do and what we stand for.
               </div>
             </div>
-            <div className="flex flex-col items-start max-sm:items-center mt-7 max-sm:mt-[26px] w-full max-md:max-w-full">
-              <div className="flex max-w-full rounded-lg border border-solid bg-neutral-900 border-neutral-800 min-h-[86px] w-[228px] max-sm:w-[148px] max-sm:min-h-[32px]" />
-              <div className="flex mt-6 max-w-full rounded-lg border border-solid bg-neutral-900 border-neutral-800 min-h-[86px] w-[452px] max-sm:w-[212px] max-sm:min-w-[212px] max-sm:min-h-[48px]" />
+            <div className="flex flex-col items-start mt-7 w-full max-md:max-w-full max-sm:items-center">
+              <div className="flex max-w-full max-sm:min-h-[45px] max-sm:w-[148px] rounded-lg border border-solid bg-neutral-900 border-neutral-800 min-h-[86px] w-[228px]" />
+
+              <div className="flex mt-6 max-sm:min-h-[48px] max-sm:w-[212px] max-w-full max-sm:rounded-[8px] rounded-lg border border-solid bg-neutral-900 border-neutral-800 min-h-[86px] w-[452px]" />
             </div>
           </div>
           <div className="flex flex-col self-stretch my-auto text-xl leading-8 min-w-[240px] w-[603px] max-md:max-w-full">
