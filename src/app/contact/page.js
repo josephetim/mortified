@@ -10,6 +10,7 @@ import { Footer } from '../components/Footer';
 export default function Contact() {
 
     const socialIcons = [
+        { src: icons.gmail, alt: "Social media icon 1", href:"mailto:mortifiedinfo@gmail.com" },
         { src: icons.twitterLight, alt: "Social media icon 1", href:"https://x.com/TheMortifiedOne?t=21h4wUeo4iIk8Uj7-gORJw&s=09" },
         { src: icons.facebookLight, alt: "Social media icon 2", href:"https://www.facebook.com/share/1EYEMPsaQh/" },
         { src: icons.instagramLight, alt: "Social media icon 3", href: "https://www.instagram.com/themortifiedone?igsh=d2h2b2xuZTRzcmI0" },
