@@ -49,7 +49,7 @@ export default function Page() {
                 GOD'S MESSAGE TO YOU TODAY
               </div>
               <div className=" font-kumbhSans max-sm:text-center max-sm:text-[24px] text-[36px] font-normal mt-6 text-4xl text-neutral-200 max-md:max-w-full">
-              Access and download impactful <span className="text-[#828282]"> sermons </span> from past Mortified editions to <span className="text-[#828282]"> deepen </span> your faith
+              Access and download impactful <span className="text-[#828282]"> sermons </span> from Mortified  to <span className="text-[#828282]"> deepen </span> your faith
            
               </div>
             </div>
