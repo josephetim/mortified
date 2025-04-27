@@ -38,6 +38,8 @@ export default function Contact() {
         </div>
         <div className='hidden max-sm:flex'>
         <Footer />
+<div>
+</div>
         </div>
         
     </div>
